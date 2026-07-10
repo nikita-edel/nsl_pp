@@ -10,11 +10,11 @@
 # /* See http://www.boost.org for most recent version. */
 #
 # include "test.h"
-# include <boost/preprocessor/facilities/check_empty.hpp>
+# include <boost/preprocessor/facilities/check_empty.h>
 
 # if BOOST_PP_VARIADIC_HAS_OPT()
 
-# include <boost/preprocessor/facilities/empty.hpp>
+# include <boost/preprocessor/facilities/empty.h>
 
 #define DATA
 #define OBJECT OBJECT2

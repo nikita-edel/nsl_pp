@@ -11,19 +11,19 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/config/limits.hpp>
-# include <boost/preprocessor/array.hpp>
+# include <boost/preprocessor/config/limits.h>
+# include <boost/preprocessor/array.h>
 # include "test.h"
-# include <boost/preprocessor/facilities/is_empty.hpp>
-# include <boost/preprocessor/list/at.hpp>
-# include <boost/preprocessor/list/size.hpp>
-# include <boost/preprocessor/seq/elem.hpp>
-# include <boost/preprocessor/seq/size.hpp>
-# include <boost/preprocessor/tuple/elem.hpp>
-# include <boost/preprocessor/tuple/size.hpp>
-# include <boost/preprocessor/variadic/size.hpp>
-# include <boost/preprocessor/variadic/elem.hpp>
-# include <boost/preprocessor/variadic/has_opt.hpp>
+# include <boost/preprocessor/facilities/is_empty.h>
+# include <boost/preprocessor/list/at.h>
+# include <boost/preprocessor/list/size.h>
+# include <boost/preprocessor/seq/elem.h>
+# include <boost/preprocessor/seq/size.h>
+# include <boost/preprocessor/tuple/elem.h>
+# include <boost/preprocessor/tuple/size.h>
+# include <boost/preprocessor/variadic/size.h>
+# include <boost/preprocessor/variadic/elem.h>
+# include <boost/preprocessor/variadic/has_opt.h>
 
 # define ARRAY_EMPTY (0, ())
 # define ARRAY_ONE (1, ())

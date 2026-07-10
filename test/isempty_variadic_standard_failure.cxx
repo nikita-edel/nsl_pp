@@ -9,7 +9,7 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/facilities/is_empty.hpp>
+# include <boost/preprocessor/facilities/is_empty.h>
 # include "test.h"
 
 #if (BOOST_PP_CONFIG_FLAGS() & BOOST_PP_CONFIG_STRICT()) && !BOOST_PP_VARIADICS_MSVC
@@ -18,7 +18,7 @@
 
 #if defined(__cplusplus) && __cplusplus > 201703L
   
-# include <boost/preprocessor/variadic/has_opt.hpp>
+# include <boost/preprocessor/variadic/has_opt.h>
 
 BEGIN BOOST_PP_IS_EMPTY(FUNC_GEN8) == BOOST_PP_VARIADIC_HAS_OPT() END
 

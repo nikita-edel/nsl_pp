@@ -9,10 +9,10 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/cat.hpp>
-# include <boost/preprocessor/facilities.hpp>
-# include <boost/preprocessor/arithmetic/add.hpp>
-# include <boost/preprocessor/arithmetic/mul.hpp>
+# include <boost/preprocessor/cat.h>
+# include <boost/preprocessor/facilities.h>
+# include <boost/preprocessor/arithmetic/add.h>
+# include <boost/preprocessor/arithmetic/mul.h>
 # include "test.h"
 
 BEGIN BOOST_PP_APPLY(BOOST_PP_NIL) 0 == 0 END

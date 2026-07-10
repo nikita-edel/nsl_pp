@@ -26,11 +26,11 @@
 #  * memory.
 #  */
 #
-# include <boost/preprocessor/arithmetic/dec.hpp>
-# include <boost/preprocessor/cat.hpp>
-# include <boost/preprocessor/control/while.hpp>
-# include <boost/preprocessor/facilities/empty.hpp>
-# include <boost/preprocessor/tuple/elem.hpp>
+# include <boost/preprocessor/arithmetic/dec.h>
+# include <boost/preprocessor/cat.h>
+# include <boost/preprocessor/control/while.h>
+# include <boost/preprocessor/facilities/empty.h>
+# include <boost/preprocessor/tuple/elem.h>
 #
 # ifndef DELAY_MAX
 # define DELAY_MAX 14

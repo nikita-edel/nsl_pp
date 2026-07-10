@@ -11,11 +11,11 @@
 #
 # if !BOOST_PP_IS_ITERATING
 #
-# include <boost/preprocessor/cat.hpp>
-# include <boost/preprocessor/comparison/equal.hpp>
-# include <boost/preprocessor/control/expr_iif.hpp>
-# include <boost/preprocessor/iteration.hpp>
-# include <boost/preprocessor/logical/bitor.hpp>
+# include <boost/preprocessor/cat.h>
+# include <boost/preprocessor/comparison/equal.h>
+# include <boost/preprocessor/control/expr_iif.h>
+# include <boost/preprocessor/iteration.h>
+# include <boost/preprocessor/logical/bitor.h>
 # include "test.h"
 #
 # define NO_FLAGS

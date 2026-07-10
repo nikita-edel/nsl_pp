@@ -11,21 +11,21 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/config/limits.hpp>
-# include <boost/preprocessor/arithmetic/add.hpp>
-# include <boost/preprocessor/arithmetic/sub.hpp>
-# include <boost/preprocessor/comparison/equal.hpp>
-# include <boost/preprocessor/comparison/less.hpp>
-# include <boost/preprocessor/control/iif.hpp>
-# include <boost/preprocessor/facilities/is_empty.hpp>
-# include <boost/preprocessor/list.hpp>
-# include <boost/preprocessor/tuple/elem.hpp>
-# include <boost/preprocessor/tuple/size.hpp>
-# include <boost/preprocessor/array/elem.hpp>
-# include <boost/preprocessor/array/size.hpp>
-# include <boost/preprocessor/seq/elem.hpp>
-# include <boost/preprocessor/seq/size.hpp>
-# include <boost/preprocessor/variadic/elem.hpp>
+# include <boost/preprocessor/config/limits.h>
+# include <boost/preprocessor/arithmetic/add.h>
+# include <boost/preprocessor/arithmetic/sub.h>
+# include <boost/preprocessor/comparison/equal.h>
+# include <boost/preprocessor/comparison/less.h>
+# include <boost/preprocessor/control/iif.h>
+# include <boost/preprocessor/facilities/is_empty.h>
+# include <boost/preprocessor/list.h>
+# include <boost/preprocessor/tuple/elem.h>
+# include <boost/preprocessor/tuple/size.h>
+# include <boost/preprocessor/array/elem.h>
+# include <boost/preprocessor/array/size.h>
+# include <boost/preprocessor/seq/elem.h>
+# include <boost/preprocessor/seq/size.h>
+# include <boost/preprocessor/variadic/elem.h>
 # include "test.h"
 
 # define LISTNIL BOOST_PP_NIL

@@ -9,16 +9,16 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/config/limits.hpp>
-# include <boost/preprocessor/variadic.hpp>
-# include <boost/preprocessor/array/size.hpp>
-# include <boost/preprocessor/array/elem.hpp>
-# include <boost/preprocessor/list/at.hpp>
-# include <boost/preprocessor/list/size.hpp>
-# include <boost/preprocessor/seq/elem.hpp>
-# include <boost/preprocessor/seq/size.hpp>
-# include <boost/preprocessor/tuple/size.hpp>
-# include <boost/preprocessor/tuple/elem.hpp>
+# include <boost/preprocessor/config/limits.h>
+# include <boost/preprocessor/variadic.h>
+# include <boost/preprocessor/array/size.h>
+# include <boost/preprocessor/array/elem.h>
+# include <boost/preprocessor/list/at.h>
+# include <boost/preprocessor/list/size.h>
+# include <boost/preprocessor/seq/elem.h>
+# include <boost/preprocessor/seq/size.h>
+# include <boost/preprocessor/tuple/size.h>
+# include <boost/preprocessor/tuple/elem.h>
 # include "test.h"
 
 #define VDATA 0,1,2,3,4,5,6

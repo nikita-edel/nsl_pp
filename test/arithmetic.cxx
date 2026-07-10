@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/config/limits.hpp>
-# include <boost/preprocessor/arithmetic.hpp>
+# include <boost/preprocessor/config/limits.h>
+# include <boost/preprocessor/arithmetic.h>
 # include "test.h"
 
 /* addition */

@@ -10,13 +10,13 @@
 # /* See http://www.boost.org for most recent version. */
 #
 # include "test.h"
-# include <boost/preprocessor/variadic/has_opt.hpp>
+# include <boost/preprocessor/variadic/has_opt.h>
 
 # if BOOST_PP_VARIADIC_HAS_OPT()
 
-# include <boost/preprocessor/facilities/empty.hpp>
-# include <boost/preprocessor/facilities/va_opt.hpp>
-# include <boost/preprocessor/variadic/elem.hpp>
+# include <boost/preprocessor/facilities/empty.h>
+# include <boost/preprocessor/facilities/va_opt.h>
+# include <boost/preprocessor/variadic/elem.h>
 
 #define DATA
 #define OBJECT OBJECT2

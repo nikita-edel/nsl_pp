@@ -9,7 +9,7 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/config/limits.hpp>
+# include <boost/preprocessor/config/limits.h>
 #
 # if !BOOST_PP_IS_SELFISH
 #

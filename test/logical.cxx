@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/config/limits.hpp>
-# include <boost/preprocessor/logical.hpp>
+# include <boost/preprocessor/config/limits.h>
+# include <boost/preprocessor/logical.h>
 # include "test.h"
 
 BEGIN BOOST_PP_NOT(0) == 1 END

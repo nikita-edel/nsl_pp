@@ -9,10 +9,10 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/config/limits.hpp>
-# include <boost/preprocessor/arithmetic/add.hpp>
-# include <boost/preprocessor/arithmetic/dec.hpp>
-# include <boost/preprocessor/control.hpp>
+# include <boost/preprocessor/config/limits.h>
+# include <boost/preprocessor/arithmetic/add.h>
+# include <boost/preprocessor/arithmetic/dec.h>
+# include <boost/preprocessor/control.h>
 # include "test.h"
 
 # define TR(x) 1

@@ -13,11 +13,11 @@
 #
 # /* This example demonstrates the usage of preprocessor lists for generating C++ code. */
 #
-# include <boost/preprocessor/facilities/empty.hpp>
-# include <boost/preprocessor/list/at.hpp>
-# include <boost/preprocessor/list/for_each_product.hpp>
-# include <boost/preprocessor/tuple/elem.hpp>
-# include <boost/preprocessor/tuple/to_list.hpp>
+# include <boost/preprocessor/facilities/empty.h>
+# include <boost/preprocessor/list/at.h>
+# include <boost/preprocessor/list/for_each_product.h>
+# include <boost/preprocessor/tuple/elem.h>
+# include <boost/preprocessor/tuple/to_list.h>
 #
 # /* List of integral types.  (Strictly speaking, wchar_t should be on the list.) */
 # define INTEGRAL_TYPES \

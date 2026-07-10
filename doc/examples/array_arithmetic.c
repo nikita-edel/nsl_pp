@@ -21,14 +21,14 @@
 #  * Compile with any C compiler with a standards conforming preprocessor.
 #  */
 #
-# include <boost/preprocessor/comparison/less.hpp>
-# include <boost/preprocessor/control/if.hpp>
-# include <boost/preprocessor/list/at.hpp>
-# include <boost/preprocessor/list/cat.hpp>
-# include <boost/preprocessor/list/for_each_product.hpp>
-# include <boost/preprocessor/logical/or.hpp>
-# include <boost/preprocessor/tuple/to_list.hpp>
-# include <boost/preprocessor/tuple/eat.hpp>
+# include <boost/preprocessor/comparison/less.h>
+# include <boost/preprocessor/control/if.h>
+# include <boost/preprocessor/list/at.h>
+# include <boost/preprocessor/list/cat.h>
+# include <boost/preprocessor/list/for_each_product.h>
+# include <boost/preprocessor/logical/or.h>
+# include <boost/preprocessor/tuple/to_list.h>
+# include <boost/preprocessor/tuple/eat.h>
 #
 # /* Information about C operators */
 #

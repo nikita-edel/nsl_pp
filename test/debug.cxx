@@ -9,7 +9,7 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/debug.hpp>
+# include <boost/preprocessor/debug.h>
 # include "test.h"
 
 BEGIN sizeof(BOOST_PP_ASSERT_MSG(0, "text") "") / sizeof(char) != 1 END

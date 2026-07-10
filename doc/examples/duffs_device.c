@@ -20,8 +20,8 @@
 #
 # include <assert.h>
 #
-# include <boost/preprocessor/repetition/repeat.hpp>
-# include <boost/preprocessor/tuple/elem.hpp>
+# include <boost/preprocessor/repetition/repeat.h>
+# include <boost/preprocessor/tuple/elem.h>
 #
 # /* Expands to a Duff's Device. */
 # define DUFFS_DEVICE(UNROLLING_FACTOR, COUNTER_TYPE, N, STATEMENT) \

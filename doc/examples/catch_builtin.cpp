@@ -16,8 +16,8 @@
 # include <iostream>
 # include <typeinfo>
 #
-# include <boost/preprocessor/list/for_each.hpp>
-# include <boost/preprocessor/tuple/to_list.hpp>
+# include <boost/preprocessor/list/for_each.h>
+# include <boost/preprocessor/tuple/to_list.h>
 #
 # /* List of built-in types.  (Strictly speaking wchar_t should be on the list.) */
 #

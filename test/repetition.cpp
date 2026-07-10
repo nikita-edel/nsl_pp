@@ -9,15 +9,15 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/config/limits.hpp>
-# include <boost/preprocessor/arithmetic/inc.hpp>
-# include <boost/preprocessor/cat.hpp>
-# include <boost/preprocessor/comparison/equal.hpp>
-# include <boost/preprocessor/comparison/not_equal.hpp>
-# include <boost/preprocessor/control/iif.hpp>
-# include <boost/preprocessor/facilities/intercept.hpp>
-# include <boost/preprocessor/logical/bitor.hpp>
-# include <boost/preprocessor/repetition.hpp>
+# include <boost/preprocessor/config/limits.h>
+# include <boost/preprocessor/arithmetic/inc.h>
+# include <boost/preprocessor/cat.h>
+# include <boost/preprocessor/comparison/equal.h>
+# include <boost/preprocessor/comparison/not_equal.h>
+# include <boost/preprocessor/control/iif.h>
+# include <boost/preprocessor/facilities/intercept.h>
+# include <boost/preprocessor/logical/bitor.h>
+# include <boost/preprocessor/repetition.h>
 # include "test.h"
 
 # define MAX 10

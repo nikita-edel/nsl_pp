@@ -9,7 +9,7 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/punctuation.hpp>
+# include <boost/preprocessor/punctuation.h>
 # include "test.h"
 
 # define A_TUPLE (*,#,zz)

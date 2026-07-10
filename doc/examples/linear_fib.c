@@ -15,12 +15,12 @@
 #
 # include <stdio.h>
 #
-# include <boost/preprocessor/arithmetic/add.hpp>
-# include <boost/preprocessor/arithmetic/sub.hpp>
-# include <boost/preprocessor/comparison/less_equal.hpp>
-# include <boost/preprocessor/control/while.hpp>
-# include <boost/preprocessor/list/adt.hpp>
-# include <boost/preprocessor/tuple/elem.hpp>
+# include <boost/preprocessor/arithmetic/add.h>
+# include <boost/preprocessor/arithmetic/sub.h>
+# include <boost/preprocessor/comparison/less_equal.h>
+# include <boost/preprocessor/control/while.h>
+# include <boost/preprocessor/list/adt.h>
+# include <boost/preprocessor/tuple/elem.h>
 #
 # /* First consider the following C implementation of Fibonacci. */
 

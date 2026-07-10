@@ -9,12 +9,12 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/config/config.hpp>
+# include <boost/preprocessor/config/config.h>
 #
 #if (BOOST_PP_CONFIG_FLAGS() & BOOST_PP_CONFIG_STRICT()) || (BOOST_PP_CONFIG_FLAGS() & BOOST_PP_CONFIG_MSVC())
 
-# include <boost/preprocessor/facilities/empty.hpp>
-# include <boost/preprocessor/facilities/is_empty.hpp>
+# include <boost/preprocessor/facilities/empty.h>
+# include <boost/preprocessor/facilities/is_empty.h>
 # include "test.h"
 
 #define DATA
@@ -36,7 +36,7 @@
 #define ATUPLE (atuple)
 #define ATUPLE_PLUS (atuple) data
 
-# include <boost/preprocessor/variadic/has_opt.hpp>
+# include <boost/preprocessor/variadic/has_opt.h>
 
 #if defined(__cplusplus) && __cplusplus > 201703L && BOOST_PP_VARIADIC_HAS_OPT()
 

@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/config/limits.hpp>
-# include <boost/preprocessor/selection.hpp>
+# include <boost/preprocessor/config/limits.h>
+# include <boost/preprocessor/selection.h>
 # include "test.h"
 
 BEGIN BOOST_PP_MAX(2, 2) == 2 END
