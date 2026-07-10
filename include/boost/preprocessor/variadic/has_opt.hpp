@@ -16,7 +16,7 @@
 #
 # /* BOOST_PP_VARIADIC_HAS_OPT */
 #
-# if defined(__cplusplus) && __cplusplus > 201703L
+# if defined(__cplusplus) && __cplusplus > 201703L  || (defined(__STDC_VERSION__) && __STDC_VERSION_ >= 202311L)
 #  if defined(__GNUC__) && !defined(__clang__) && __GNUC__ >= 8 && __GNUC__ < 10
 #   define BOOST_PP_VARIADIC_HAS_OPT() 0
 #  elif defined(__clang__) && __clang_major__ < 9
