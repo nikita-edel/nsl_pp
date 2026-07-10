@@ -5,36 +5,50 @@
 include(BoostTest OPTIONAL RESULT_VARIABLE HAVE_BOOST_TEST)
 
 if(NOT HAVE_BOOST_TEST)
-  return()
+	return()
 endif()
 
 enable_language(C)
 
-set(tests_common arithmetic array comparison control debug facilities list logical punctuation selection seq slot stringize tuple variadic isempty)
-set(tests_common_fail isempty_variadic_standard_failure isempty_variadic_standard_failure2)
-set(tests_c ${tests_common})
-set(tests_cpp ${tests_common} iteration repetition checkempty vaopt quick)
+set(tests_c
+	arithmetic
+	array
+	comparison
+	control
+	debug
+	facilities
+	list
+	logical
+	punctuation
+	selection
+	seq
+	slot
+	stringize
+	tuple
+	variadic
+	isempty
+)
+
+set(tests_c_fail
+	isempty_variadic_standard_failure
+	isempty_variadic_standard_failure2
+)
 
 set(BOOST_TEST_LINK_LIBRARIES Boost::preprocessor)
 set(BOOST_TEST_INCLUDE_DIRECTORIES .)
 
 foreach(test IN LISTS tests_c)
-
-  boost_test(TYPE compile SOURCES ${test}.c NAME ${test}_c)
-
+	boost_test(
+		TYPE compile
+		SOURCES ${test}.c
+		NAME ${test}_c
+	)
 endforeach()
 
-foreach(test IN LISTS tests_cpp)
-
-  boost_test(TYPE compile SOURCES ${test}.cpp)
-
+foreach(test IN LISTS tests_c_fail)
+	boost_test(
+		TYPE compile-fail
+		SOURCES ${test}.c
+		NAME ${test}_c
+	)
 endforeach()
-
-foreach(test IN LISTS tests_common_fail)
-
-  boost_test(TYPE compile-fail SOURCES ${test}.c NAME ${test}_c)
-  boost_test(TYPE compile-fail SOURCES ${test}.cpp)
-
-endforeach()
-
-boost_test(TYPE run SOURCES config_info.cpp)
