@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_FACILITIES_OVERLOAD_HPP
-# define BOOST_PREPROCESSOR_FACILITIES_OVERLOAD_HPP
+# ifndef BOOST_PREPROCESSOR_FACILITIES_OVERLOAD_H
+# define BOOST_PREPROCESSOR_FACILITIES_OVERLOAD_H
 #
 # include <boost/preprocessor/cat.h>
 # include <boost/preprocessor/variadic/size.h>

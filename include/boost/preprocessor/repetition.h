@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_REPETITION_HPP
-# define BOOST_PREPROCESSOR_REPETITION_HPP
+# ifndef BOOST_PREPROCESSOR_REPETITION_H
+# define BOOST_PREPROCESSOR_REPETITION_H
 #
 # include <boost/preprocessor/repetition/deduce_r.h>
 # include <boost/preprocessor/repetition/deduce_z.h>

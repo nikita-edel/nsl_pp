@@ -7,8 +7,8 @@
 #  *                                                                          *
 #  ************************************************************************** */
 #
-# ifndef BOOST_PREPROCESSOR_DETAIL_SPLIT_HPP
-# define BOOST_PREPROCESSOR_DETAIL_SPLIT_HPP
+# ifndef BOOST_PREPROCESSOR_DETAIL_SPLIT_H
+# define BOOST_PREPROCESSOR_DETAIL_SPLIT_H
 #
 # include <boost/preprocessor/config/config.h>
 #

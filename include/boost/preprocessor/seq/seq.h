@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SEQ_SEQ_HPP
-# define BOOST_PREPROCESSOR_SEQ_SEQ_HPP
+# ifndef BOOST_PREPROCESSOR_SEQ_SEQ_H
+# define BOOST_PREPROCESSOR_SEQ_SEQ_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/seq/elem.h>

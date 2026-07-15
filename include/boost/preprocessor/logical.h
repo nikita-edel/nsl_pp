@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_LOGICAL_HPP
-# define BOOST_PREPROCESSOR_LOGICAL_HPP
+# ifndef BOOST_PREPROCESSOR_LOGICAL_H
+# define BOOST_PREPROCESSOR_LOGICAL_H
 #
 # include <boost/preprocessor/logical/and.h>
 # include <boost/preprocessor/logical/bitand.h>

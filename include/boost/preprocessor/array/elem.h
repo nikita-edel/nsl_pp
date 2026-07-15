@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ARRAY_ELEM_HPP
-# define BOOST_PREPROCESSOR_ARRAY_ELEM_HPP
+# ifndef BOOST_PREPROCESSOR_ARRAY_ELEM_H
+# define BOOST_PREPROCESSOR_ARRAY_ELEM_H
 #
 # include <boost/preprocessor/array/data.h>
 # include <boost/preprocessor/array/size.h>

@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_FACILITIES_VA_OPT_HPP
-# define BOOST_PREPROCESSOR_FACILITIES_VA_OPT_HPP
+# ifndef BOOST_PREPROCESSOR_FACILITIES_VA_OPT_H
+# define BOOST_PREPROCESSOR_FACILITIES_VA_OPT_H
 # include <boost/preprocessor/variadic/has_opt.h>
 # if BOOST_PP_VARIADIC_HAS_OPT()
 # include <boost/preprocessor/control/iif.h>
@@ -31,4 +31,4 @@
         )                                      \
 /**/
 # endif /* BOOST_PP_VARIADIC_HAS_OPT() */
-# endif /* BOOST_PREPROCESSOR_FACILITIES_VA_OPT_HPP */
+# endif /* BOOST_PREPROCESSOR_FACILITIES_VA_OPT_H */

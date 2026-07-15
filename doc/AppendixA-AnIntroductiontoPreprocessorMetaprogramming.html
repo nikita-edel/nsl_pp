@@ -1063,11 +1063,11 @@ struct tiny_size&lt;
                     class="pre">tiny_size.hpp</span></tt> file that demonstrates
                 self-iteration. Note in particular the placement and use of the
                 <tt class="docutils literal"><span class="pre">#include</span></tt>
-                guard <tt class="docutils literal"><span class="pre">TINY_SIZE_HPP_INCLUDED</span></tt>:</p>
+                guard <tt class="docutils literal"><span class="pre">TINY_SIZE_H_INCLUDED</span></tt>:</p>
               <pre class="literal-block">#ifndef <strong>BOOST_PP_IS_ITERATING</strong>
 
-#  ifndef TINY_SIZE_HPP_INCLUDED
-#    define TINY_SIZE_HPP_INCLUDED
+#  ifndef TINY_SIZE_H_INCLUDED
+#    define TINY_SIZE_H_INCLUDED
 
 #    include &lt;boost/preprocessor/repetition.h&gt;
 #    include &lt;boost/preprocessor/arithmetic/sub.h&gt;
@@ -1089,7 +1089,7 @@ struct tiny_size
 #    define BOOST_PP_FILENAME_1       "tiny_size.hpp" // this file
 #    include BOOST_PP_ITERATE()
 
-#  endif // TINY_SIZE_HPP_INCLUDED
+#  endif // TINY_SIZE_H_INCLUDED
 
 #else // <strong>BOOST_PP_IS_ITERATING</strong>
 
@@ -1435,8 +1435,8 @@ compile() -->
                 class="pre">tiny_size</span></tt> would be fine:</p>
           <pre class="literal-block">#ifndef BOOST_PP_IS_ITERATING
 
-#  ifndef BOOST_FUNCTION_HPP_INCLUDED
-#    define BOOST_FUNCTION_HPP_INCLUDED
+#  ifndef BOOST_FUNCTION_H_INCLUDED
+#    define BOOST_FUNCTION_H_INCLUDED
 
 #    include &lt;boost/preprocessor/repetition.h&gt;
 #    include &lt;boost/preprocessor/iteration/iterate.h&gt;
@@ -1452,7 +1452,7 @@ compile() -->
 #    define BOOST_PP_FILENAME_1    "boost/function.hpp" // this file
 #    include BOOST_PP_ITERATE()
 
-#  endif // BOOST_FUNCTION_HPP_INCLUDED
+#  endif // BOOST_FUNCTION_H_INCLUDED
 
 #else // BOOST_PP_IS_ITERATING
 

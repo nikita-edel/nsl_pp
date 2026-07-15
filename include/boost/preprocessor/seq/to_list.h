@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SEQ_TO_LIST_HPP
-# define BOOST_PREPROCESSOR_SEQ_TO_LIST_HPP
+# ifndef BOOST_PREPROCESSOR_SEQ_TO_LIST_H
+# define BOOST_PREPROCESSOR_SEQ_TO_LIST_H
 #
 # include <boost/preprocessor/punctuation/comma.h>
 # include <boost/preprocessor/punctuation/paren.h>

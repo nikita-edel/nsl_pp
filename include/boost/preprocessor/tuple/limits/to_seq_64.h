@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_TUPLE_TO_SEQ_64_HPP
-# define BOOST_PREPROCESSOR_TUPLE_TO_SEQ_64_HPP
+# ifndef BOOST_PREPROCESSOR_TUPLE_TO_SEQ_64_H
+# define BOOST_PREPROCESSOR_TUPLE_TO_SEQ_64_H
 #
 /* An empty array can be passed */
 # define BOOST_PP_TUPLE_TO_SEQ_0() ()

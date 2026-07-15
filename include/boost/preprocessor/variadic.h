@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_VARIADIC_HPP
-# define BOOST_PREPROCESSOR_VARIADIC_HPP
+# ifndef BOOST_PREPROCESSOR_VARIADIC_H
+# define BOOST_PREPROCESSOR_VARIADIC_H
 #
 # include <boost/preprocessor/variadic/elem.h>
 # include <boost/preprocessor/variadic/has_opt.h>

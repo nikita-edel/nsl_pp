@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-#ifndef BOOST_PREPROCESSOR_REMOVE_PARENS_HPP
-#define BOOST_PREPROCESSOR_REMOVE_PARENS_HPP
+#ifndef BOOST_PREPROCESSOR_REMOVE_PARENS_H
+#define BOOST_PREPROCESSOR_REMOVE_PARENS_H
 
 #include <boost/preprocessor/config/config.h>
 #include <boost/preprocessor/control/iif.h>
@@ -32,4 +32,4 @@
   BOOST_PP_IDENTITY(BOOST_PP_TUPLE_ENUM(param)) \
 /**/
 
-#endif /* BOOST_PREPROCESSOR_REMOVE_PARENS_HPP */
+#endif /* BOOST_PREPROCESSOR_REMOVE_PARENS_H */

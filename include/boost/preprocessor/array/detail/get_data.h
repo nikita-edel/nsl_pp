@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ARRAY_DETAIL_GET_DATA_HPP
-# define BOOST_PREPROCESSOR_ARRAY_DETAIL_GET_DATA_HPP
+# ifndef BOOST_PREPROCESSOR_ARRAY_DETAIL_GET_DATA_H
+# define BOOST_PREPROCESSOR_ARRAY_DETAIL_GET_DATA_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/tuple/rem.h>
@@ -52,4 +52,4 @@
     (size,data) \
 /**/
 #
-# endif /* BOOST_PREPROCESSOR_ARRAY_DETAIL_GET_DATA_HPP */
+# endif /* BOOST_PREPROCESSOR_ARRAY_DETAIL_GET_DATA_H */

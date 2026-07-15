@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_CONFIG_CONFIG_HPP
-# define BOOST_PREPROCESSOR_CONFIG_CONFIG_HPP
+# ifndef BOOST_PREPROCESSOR_CONFIG_CONFIG_H
+# define BOOST_PREPROCESSOR_CONFIG_CONFIG_H
 #
 # /* BOOST_PP_CONFIG_FLAGS */
 #

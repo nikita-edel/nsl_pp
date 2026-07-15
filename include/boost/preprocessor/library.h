@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_LIBRARY_HPP
-# define BOOST_PREPROCESSOR_LIBRARY_HPP
+# ifndef BOOST_PREPROCESSOR_LIBRARY_H
+# define BOOST_PREPROCESSOR_LIBRARY_H
 #
 # include <boost/preprocessor/arithmetic.h>
 # include <boost/preprocessor/array.h>

@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_CONTROL_DETAIL_WHILE_256_HPP
-# define BOOST_PREPROCESSOR_CONTROL_DETAIL_WHILE_256_HPP
+# ifndef BOOST_PREPROCESSOR_CONTROL_DETAIL_WHILE_256_H
+# define BOOST_PREPROCESSOR_CONTROL_DETAIL_WHILE_256_H
 #
 # define BOOST_PP_WHILE_0(p, o, s) BOOST_PP_WHILE_0_C(BOOST_PP_BOOL(p(1, s)), p, o, s)
 # define BOOST_PP_WHILE_1(p, o, s) BOOST_PP_WHILE_1_C(BOOST_PP_BOOL(p(2, s)), p, o, s)

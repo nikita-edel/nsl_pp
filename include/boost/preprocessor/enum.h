@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ENUM_HPP
-# define BOOST_PREPROCESSOR_ENUM_HPP
+# ifndef BOOST_PREPROCESSOR_ENUM_H
+# define BOOST_PREPROCESSOR_ENUM_H
 #
 # include <boost/preprocessor/repetition/enum.h>
 #

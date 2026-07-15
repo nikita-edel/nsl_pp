@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_VARIADIC_TO_ARRAY_HPP
-# define BOOST_PREPROCESSOR_VARIADIC_TO_ARRAY_HPP
+# ifndef BOOST_PREPROCESSOR_VARIADIC_TO_ARRAY_H
+# define BOOST_PREPROCESSOR_VARIADIC_TO_ARRAY_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/control/if.h>

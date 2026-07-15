@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ARITHMETIC_DIV_HPP
-# define BOOST_PREPROCESSOR_ARITHMETIC_DIV_HPP
+# ifndef BOOST_PREPROCESSOR_ARITHMETIC_DIV_H
+# define BOOST_PREPROCESSOR_ARITHMETIC_DIV_H
 #
 # include <boost/preprocessor/config/config.h>
 #

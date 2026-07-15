@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_TUPLE_ENUM_HPP
-# define BOOST_PREPROCESSOR_TUPLE_ENUM_HPP
+# ifndef BOOST_PREPROCESSOR_TUPLE_ENUM_H
+# define BOOST_PREPROCESSOR_TUPLE_ENUM_H
 #
 # include <boost/preprocessor/tuple/rem.h>
 #

@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_TUPLE_REPLACE_HPP
-# define BOOST_PREPROCESSOR_TUPLE_REPLACE_HPP
+# ifndef BOOST_PREPROCESSOR_TUPLE_REPLACE_H
+# define BOOST_PREPROCESSOR_TUPLE_REPLACE_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/array/replace.h>
@@ -29,4 +29,4 @@
     BOOST_PP_ARRAY_TO_TUPLE(BOOST_PP_ARRAY_REPLACE_D(d, BOOST_PP_TUPLE_TO_ARRAY(tuple), i, elem)) \
 /**/
 #
-# endif // BOOST_PREPROCESSOR_TUPLE_REPLACE_HPP
+# endif // BOOST_PREPROCESSOR_TUPLE_REPLACE_H

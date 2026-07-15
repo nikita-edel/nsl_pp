@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_TUPLE_POP_FRONT_HPP
-# define BOOST_PREPROCESSOR_TUPLE_POP_FRONT_HPP
+# ifndef BOOST_PREPROCESSOR_TUPLE_POP_FRONT_H
+# define BOOST_PREPROCESSOR_TUPLE_POP_FRONT_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/array/pop_front.h>
@@ -57,4 +57,4 @@
 #
 # define BOOST_PP_TUPLE_POP_FRONT_Z_RETURN(z, tuple) tuple
 #
-# endif // BOOST_PREPROCESSOR_TUPLE_POP_FRONT_HPP
+# endif // BOOST_PREPROCESSOR_TUPLE_POP_FRONT_H

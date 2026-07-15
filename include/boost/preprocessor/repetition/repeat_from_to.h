@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_REPETITION_REPEAT_FROM_TO_HPP
-# define BOOST_PREPROCESSOR_REPETITION_REPEAT_FROM_TO_HPP
+# ifndef BOOST_PREPROCESSOR_REPETITION_REPEAT_FROM_TO_H
+# define BOOST_PREPROCESSOR_REPETITION_REPEAT_FROM_TO_H
 #
 # include <boost/preprocessor/arithmetic/add.h>
 # include <boost/preprocessor/arithmetic/sub.h>

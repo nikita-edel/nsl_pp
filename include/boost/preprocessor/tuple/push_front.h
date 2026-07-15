@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_TUPLE_PUSH_FRONT_HPP
-# define BOOST_PREPROCESSOR_TUPLE_PUSH_FRONT_HPP
+# ifndef BOOST_PREPROCESSOR_TUPLE_PUSH_FRONT_H
+# define BOOST_PREPROCESSOR_TUPLE_PUSH_FRONT_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/array/push_front.h>
@@ -23,4 +23,4 @@
     BOOST_PP_ARRAY_TO_TUPLE(BOOST_PP_ARRAY_PUSH_FRONT(BOOST_PP_TUPLE_TO_ARRAY(tuple), elem)) \
 /**/
 #
-# endif // BOOST_PREPROCESSOR_TUPLE_PUSH_FRONT_HPP
+# endif // BOOST_PREPROCESSOR_TUPLE_PUSH_FRONT_H

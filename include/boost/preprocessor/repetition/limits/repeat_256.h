@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_REPETITION_REPEAT_256_HPP
-# define BOOST_PREPROCESSOR_REPETITION_REPEAT_256_HPP
+# ifndef BOOST_PREPROCESSOR_REPETITION_REPEAT_256_H
+# define BOOST_PREPROCESSOR_REPETITION_REPEAT_256_H
 #
 # define BOOST_PP_REPEAT_1_0(m, d)
 # define BOOST_PP_REPEAT_1_1(m, d) m(2, 0, d)

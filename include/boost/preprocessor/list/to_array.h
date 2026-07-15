@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_LIST_TO_ARRAY_HPP
-# define BOOST_PREPROCESSOR_LIST_TO_ARRAY_HPP
+# ifndef BOOST_PREPROCESSOR_LIST_TO_ARRAY_H
+# define BOOST_PREPROCESSOR_LIST_TO_ARRAY_H
 #
 # include <boost/preprocessor/arithmetic/dec.h>
 # include <boost/preprocessor/arithmetic/inc.h>
@@ -85,4 +85,4 @@
 # define BOOST_PP_LIST_TO_ARRAY_D(d, list) BOOST_PP_LIST_TO_ARRAY_I(BOOST_PP_WHILE_ ## d, list)
 # endif
 #
-# endif /* BOOST_PREPROCESSOR_LIST_TO_ARRAY_HPP */
+# endif /* BOOST_PREPROCESSOR_LIST_TO_ARRAY_H */

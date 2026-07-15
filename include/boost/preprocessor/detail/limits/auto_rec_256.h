@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_DETAIL_AUTO_REC_256_HPP
-# define BOOST_PREPROCESSOR_DETAIL_AUTO_REC_256_HPP
+# ifndef BOOST_PREPROCESSOR_DETAIL_AUTO_REC_256_H
+# define BOOST_PREPROCESSOR_DETAIL_AUTO_REC_256_H
 #
 # define BOOST_PP_NODE_ENTRY_256(p) BOOST_PP_NODE_128(p)(p)(p)(p)(p)(p)(p)(p)
 # define BOOST_PP_NODE_ENTRY_128(p) BOOST_PP_NODE_64(p)(p)(p)(p)(p)(p)(p)

@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_VARIADIC_HAS_OPT_HPP
-# define BOOST_PREPROCESSOR_VARIADIC_HAS_OPT_HPP
+# ifndef BOOST_PREPROCESSOR_VARIADIC_HAS_OPT_H
+# define BOOST_PREPROCESSOR_VARIADIC_HAS_OPT_H
 #
 # include <boost/preprocessor/config/config.h>
 #

@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_REPETITION_DETAIL_DMC_FOR_HPP
-# define BOOST_PREPROCESSOR_REPETITION_DETAIL_DMC_FOR_HPP
+# ifndef BOOST_PREPROCESSOR_REPETITION_DETAIL_DMC_FOR_H
+# define BOOST_PREPROCESSOR_REPETITION_DETAIL_DMC_FOR_H
 #
 # include <boost/preprocessor/control/expr_iif.h>
 # include <boost/preprocessor/control/iif.h>

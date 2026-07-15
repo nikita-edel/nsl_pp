@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SEQ_FOLD_LEFT_HPP
-# define BOOST_PREPROCESSOR_SEQ_FOLD_LEFT_HPP
+# ifndef BOOST_PREPROCESSOR_SEQ_FOLD_LEFT_H
+# define BOOST_PREPROCESSOR_SEQ_FOLD_LEFT_H
 #
 # include <boost/preprocessor/arithmetic/dec.h>
 # include <boost/preprocessor/cat.h>

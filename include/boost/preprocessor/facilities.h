@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_FACILITIES_HPP
-# define BOOST_PREPROCESSOR_FACILITIES_HPP
+# ifndef BOOST_PREPROCESSOR_FACILITIES_H
+# define BOOST_PREPROCESSOR_FACILITIES_H
 #
 # include <boost/preprocessor/facilities/apply.h>
 # include <boost/preprocessor/facilities/check_empty.h>

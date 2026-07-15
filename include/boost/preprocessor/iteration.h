@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ITERATION_HPP
-# define BOOST_PREPROCESSOR_ITERATION_HPP
+# ifndef BOOST_PREPROCESSOR_ITERATION_H
+# define BOOST_PREPROCESSOR_ITERATION_H
 #
 # include <boost/preprocessor/iteration/iterate.h>
 # include <boost/preprocessor/iteration/local.h>

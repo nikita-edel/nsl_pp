@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-#ifndef BOOST_PREPROCESSOR_DETAIL_IS_EMPTY_HPP
-#define BOOST_PREPROCESSOR_DETAIL_IS_EMPTY_HPP
+#ifndef BOOST_PREPROCESSOR_DETAIL_IS_EMPTY_H
+#define BOOST_PREPROCESSOR_DETAIL_IS_EMPTY_H
 
 #include <boost/preprocessor/punctuation/is_begin_parens.h>
 
@@ -52,4 +52,4 @@
 #define BOOST_PP_DETAIL_IS_EMPTY_IIF(bit) BOOST_PP_DETAIL_IS_EMPTY_PRIMITIVE_CAT(BOOST_PP_DETAIL_IS_EMPTY_IIF_,bit)
 #define BOOST_PP_DETAIL_IS_EMPTY_NON_FUNCTION_C(...) ()
 
-#endif /* BOOST_PREPROCESSOR_DETAIL_IS_EMPTY_HPP */
+#endif /* BOOST_PREPROCESSOR_DETAIL_IS_EMPTY_H */

@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_VARIADIC_SIZE_256_HPP
-# define BOOST_PREPROCESSOR_VARIADIC_SIZE_256_HPP
+# ifndef BOOST_PREPROCESSOR_VARIADIC_SIZE_256_H
+# define BOOST_PREPROCESSOR_VARIADIC_SIZE_256_H
 #
 #    if BOOST_PP_VARIADICS_MSVC
 #        define BOOST_PP_VARIADIC_DO_SIZE(...)  \

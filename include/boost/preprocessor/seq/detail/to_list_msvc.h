@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SEQ_DETAIL_TO_LIST_MSVC_HPP
-# define BOOST_PREPROCESSOR_SEQ_DETAIL_TO_LIST_MSVC_HPP
+# ifndef BOOST_PREPROCESSOR_SEQ_DETAIL_TO_LIST_MSVC_H
+# define BOOST_PREPROCESSOR_SEQ_DETAIL_TO_LIST_MSVC_H
 #
 # include <boost/preprocessor/config/config.h>
 #
@@ -52,4 +52,4 @@
 /**/
 # endif // BOOST_PP_CONFIG_FLAGS() & BOOST_PP_CONFIG_MSVC()
 #
-# endif // BOOST_PREPROCESSOR_SEQ_DETAIL_TO_LIST_MSVC_HPP
+# endif // BOOST_PREPROCESSOR_SEQ_DETAIL_TO_LIST_MSVC_H

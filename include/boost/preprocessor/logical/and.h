@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_LOGICAL_AND_HPP
-# define BOOST_PREPROCESSOR_LOGICAL_AND_HPP
+# ifndef BOOST_PREPROCESSOR_LOGICAL_AND_H
+# define BOOST_PREPROCESSOR_LOGICAL_AND_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/logical/bool.h>

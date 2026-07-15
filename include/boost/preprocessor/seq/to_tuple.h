@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SEQ_TO_TUPLE_HPP
-# define BOOST_PREPROCESSOR_SEQ_TO_TUPLE_HPP
+# ifndef BOOST_PREPROCESSOR_SEQ_TO_TUPLE_H
+# define BOOST_PREPROCESSOR_SEQ_TO_TUPLE_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/seq/enum.h>

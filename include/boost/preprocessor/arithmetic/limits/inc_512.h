@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ARITHMETIC_INC_512_HPP
-# define BOOST_PREPROCESSOR_ARITHMETIC_INC_512_HPP
+# ifndef BOOST_PREPROCESSOR_ARITHMETIC_INC_512_H
+# define BOOST_PREPROCESSOR_ARITHMETIC_INC_512_H
 #
 # if defined(BOOST_PP_INC_256)
 # undef BOOST_PP_INC_256

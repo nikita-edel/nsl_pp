@@ -19,8 +19,8 @@
 #     include <boost/preprocessor/detail/dmc/auto_rec.h>
 # else
 #
-# ifndef BOOST_PREPROCESSOR_DETAIL_AUTO_REC_HPP
-# define BOOST_PREPROCESSOR_DETAIL_AUTO_REC_HPP
+# ifndef BOOST_PREPROCESSOR_DETAIL_AUTO_REC_H
+# define BOOST_PREPROCESSOR_DETAIL_AUTO_REC_H
 #
 # include <boost/preprocessor/control/iif.h>
 #
@@ -303,8 +303,8 @@
 #     include <boost/preprocessor/detail/dmc/auto_rec.h>
 # else
 #
-# ifndef BOOST_PREPROCESSOR_DETAIL_AUTO_REC_HPP
-# define BOOST_PREPROCESSOR_DETAIL_AUTO_REC_HPP
+# ifndef BOOST_PREPROCESSOR_DETAIL_AUTO_REC_H
+# define BOOST_PREPROCESSOR_DETAIL_AUTO_REC_H
 #
 # /* BOOST_PP_AUTO_REC */
 #

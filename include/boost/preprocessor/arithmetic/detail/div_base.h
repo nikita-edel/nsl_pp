@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ARITHMETIC_DETAIL_DIV_BASE_HPP
-# define BOOST_PREPROCESSOR_ARITHMETIC_DETAIL_DIV_BASE_HPP
+# ifndef BOOST_PREPROCESSOR_ARITHMETIC_DETAIL_DIV_BASE_H
+# define BOOST_PREPROCESSOR_ARITHMETIC_DETAIL_DIV_BASE_H
 #
 # include <boost/preprocessor/arithmetic/inc.h>
 # include <boost/preprocessor/arithmetic/sub.h>

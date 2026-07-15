@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_CONTROL_IIF_HPP
-# define BOOST_PREPROCESSOR_CONTROL_IIF_HPP
+# ifndef BOOST_PREPROCESSOR_CONTROL_IIF_H
+# define BOOST_PREPROCESSOR_CONTROL_IIF_H
 #
 # include <boost/preprocessor/config/config.h>
 #

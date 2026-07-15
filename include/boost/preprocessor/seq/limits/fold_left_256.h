@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SEQ_FOLD_LEFT_256_HPP
-# define BOOST_PREPROCESSOR_SEQ_FOLD_LEFT_256_HPP
+# ifndef BOOST_PREPROCESSOR_SEQ_FOLD_LEFT_256_H
+# define BOOST_PREPROCESSOR_SEQ_FOLD_LEFT_256_H
 #
 # define BOOST_PP_SEQ_FOLD_LEFT_CHECK_BOOST_PP_SEQ_FOLD_LEFT_I_0(op, st, ss, sz) 0
 # define BOOST_PP_SEQ_FOLD_LEFT_CHECK_BOOST_PP_SEQ_FOLD_LEFT_I_1(op, st, ss, sz) 0

@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_DETAIL_AUTO_REC_1024_HPP
-# define BOOST_PREPROCESSOR_DETAIL_AUTO_REC_1024_HPP
+# ifndef BOOST_PREPROCESSOR_DETAIL_AUTO_REC_1024_H
+# define BOOST_PREPROCESSOR_DETAIL_AUTO_REC_1024_H
 #
 # define BOOST_PP_NODE_ENTRY_1024(p) BOOST_PP_NODE_512(p)(p)(p)(p)(p)(p)(p)(p)(p)(p)
 #

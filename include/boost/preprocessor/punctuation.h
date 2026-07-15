@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_PUNCTUATION_HPP
-# define BOOST_PREPROCESSOR_PUNCTUATION_HPP
+# ifndef BOOST_PREPROCESSOR_PUNCTUATION_H
+# define BOOST_PREPROCESSOR_PUNCTUATION_H
 #
 # include <boost/preprocessor/punctuation/comma.h>
 # include <boost/preprocessor/punctuation/comma_if.h>

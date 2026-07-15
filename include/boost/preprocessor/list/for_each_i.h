@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_LIST_LIST_FOR_EACH_I_HPP
-# define BOOST_PREPROCESSOR_LIST_LIST_FOR_EACH_I_HPP
+# ifndef BOOST_PREPROCESSOR_LIST_LIST_FOR_EACH_I_H
+# define BOOST_PREPROCESSOR_LIST_LIST_FOR_EACH_I_H
 #
 # include <boost/preprocessor/arithmetic/inc.h>
 # include <boost/preprocessor/config/config.h>

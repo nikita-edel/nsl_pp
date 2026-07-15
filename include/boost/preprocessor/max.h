@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_MAX_HPP
-# define BOOST_PREPROCESSOR_MAX_HPP
+# ifndef BOOST_PREPROCESSOR_MAX_H
+# define BOOST_PREPROCESSOR_MAX_H
 #
 # include <boost/preprocessor/selection/max.h>
 #

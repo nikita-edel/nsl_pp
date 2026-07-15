@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SELECTION_HPP
-# define BOOST_PREPROCESSOR_SELECTION_HPP
+# ifndef BOOST_PREPROCESSOR_SELECTION_H
+# define BOOST_PREPROCESSOR_SELECTION_H
 #
 # include <boost/preprocessor/selection/max.h>
 # include <boost/preprocessor/selection/min.h>

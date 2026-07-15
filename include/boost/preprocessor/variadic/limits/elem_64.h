@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_VARIADIC_ELEM_64_HPP
-# define BOOST_PREPROCESSOR_VARIADIC_ELEM_64_HPP
+# ifndef BOOST_PREPROCESSOR_VARIADIC_ELEM_64_H
+# define BOOST_PREPROCESSOR_VARIADIC_ELEM_64_H
 #
 #    define BOOST_PP_VARIADIC_ELEM_0(e0, ...) e0
 #    define BOOST_PP_VARIADIC_ELEM_1(e0, e1, ...) e1

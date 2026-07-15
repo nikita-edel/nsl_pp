@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_TUPLE_REVERSE_64_HPP
-# define BOOST_PREPROCESSOR_TUPLE_REVERSE_64_HPP
+# ifndef BOOST_PREPROCESSOR_TUPLE_REVERSE_64_H
+# define BOOST_PREPROCESSOR_TUPLE_REVERSE_64_H
 #
 # define BOOST_PP_TUPLE_REVERSE_1(e0) (e0)
 # define BOOST_PP_TUPLE_REVERSE_2(e0, e1) (e1, e0)

@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_CONTROL_DETAIL_DMC_WHILE_HPP
-# define BOOST_PREPROCESSOR_CONTROL_DETAIL_DMC_WHILE_HPP
+# ifndef BOOST_PREPROCESSOR_CONTROL_DETAIL_DMC_WHILE_H
+# define BOOST_PREPROCESSOR_CONTROL_DETAIL_DMC_WHILE_H
 #
 # include <boost/preprocessor/control/iif.h>
 # include <boost/preprocessor/logical/bool.h>

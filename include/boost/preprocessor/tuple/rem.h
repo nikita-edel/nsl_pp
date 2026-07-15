@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_TUPLE_REM_HPP
-# define BOOST_PREPROCESSOR_TUPLE_REM_HPP
+# ifndef BOOST_PREPROCESSOR_TUPLE_REM_H
+# define BOOST_PREPROCESSOR_TUPLE_REM_H
 #
 # include <boost/preprocessor/cat.h>
 # include <boost/preprocessor/config/config.h>

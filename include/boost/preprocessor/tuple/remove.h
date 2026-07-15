@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_TUPLE_REMOVE_HPP
-# define BOOST_PREPROCESSOR_TUPLE_REMOVE_HPP
+# ifndef BOOST_PREPROCESSOR_TUPLE_REMOVE_H
+# define BOOST_PREPROCESSOR_TUPLE_REMOVE_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/array/remove.h>
@@ -56,4 +56,4 @@
 #
 # define BOOST_PP_TUPLE_REMOVE_D_RETURN(d, tuple, i) tuple
 #
-# endif // BOOST_PREPROCESSOR_TUPLE_REMOVE_HPP
+# endif // BOOST_PREPROCESSOR_TUPLE_REMOVE_H

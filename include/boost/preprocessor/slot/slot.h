@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SLOT_SLOT_HPP
-# define BOOST_PREPROCESSOR_SLOT_SLOT_HPP
+# ifndef BOOST_PREPROCESSOR_SLOT_SLOT_H
+# define BOOST_PREPROCESSOR_SLOT_SLOT_H
 #
 # include <boost/preprocessor/cat.h>
 # include <boost/preprocessor/slot/detail/def.h>

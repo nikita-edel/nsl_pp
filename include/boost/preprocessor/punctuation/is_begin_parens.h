@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_IS_BEGIN_PARENS_HPP
-# define BOOST_PREPROCESSOR_IS_BEGIN_PARENS_HPP
+# ifndef BOOST_PREPROCESSOR_IS_BEGIN_PARENS_H
+# define BOOST_PREPROCESSOR_IS_BEGIN_PARENS_H
 
 #include <boost/preprocessor/config/config.h>
 #include <boost/preprocessor/punctuation/detail/is_begin_parens.h>
@@ -44,4 +44,4 @@
 /**/
 
 #endif /* BOOST_PP_VARIADICS_MSVC && _MSC_VER <= 1400 */
-#endif /* BOOST_PREPROCESSOR_IS_BEGIN_PARENS_HPP */
+#endif /* BOOST_PREPROCESSOR_IS_BEGIN_PARENS_H */

@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SLOT_DETAIL_DEF_HPP
-# define BOOST_PREPROCESSOR_SLOT_DETAIL_DEF_HPP
+# ifndef BOOST_PREPROCESSOR_SLOT_DETAIL_DEF_H
+# define BOOST_PREPROCESSOR_SLOT_DETAIL_DEF_H
 #
 # /* BOOST_PP_SLOT_OFFSET_x */
 #

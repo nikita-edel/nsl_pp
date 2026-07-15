@@ -11,8 +11,8 @@
 #
 # /* Revised by Paul Mensonides (2002) */
 #
-# ifndef BOOST_PREPROCESSOR_LIST_ADT_HPP
-# define BOOST_PREPROCESSOR_LIST_ADT_HPP
+# ifndef BOOST_PREPROCESSOR_LIST_ADT_H
+# define BOOST_PREPROCESSOR_LIST_ADT_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/detail/is_binary.h>

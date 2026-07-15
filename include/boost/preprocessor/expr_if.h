@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_EXPR_IF_HPP
-# define BOOST_PREPROCESSOR_EXPR_IF_HPP
+# ifndef BOOST_PREPROCESSOR_EXPR_IF_H
+# define BOOST_PREPROCESSOR_EXPR_IF_H
 #
 # include <boost/preprocessor/control/expr_if.h>
 #

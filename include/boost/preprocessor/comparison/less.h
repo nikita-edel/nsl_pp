@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_COMPARISON_LESS_HPP
-# define BOOST_PREPROCESSOR_COMPARISON_LESS_HPP
+# ifndef BOOST_PREPROCESSOR_COMPARISON_LESS_H
+# define BOOST_PREPROCESSOR_COMPARISON_LESS_H
 #
 # include <boost/preprocessor/comparison/less_equal.h>
 # include <boost/preprocessor/comparison/not_equal.h>

@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_REPETITION_DETAIL_FOR_1024_HPP
-# define BOOST_PREPROCESSOR_REPETITION_DETAIL_FOR_1024_HPP
+# ifndef BOOST_PREPROCESSOR_REPETITION_DETAIL_FOR_1024_H
+# define BOOST_PREPROCESSOR_REPETITION_DETAIL_FOR_1024_H
 #
 # define BOOST_PP_FOR_513(s, p, o, m) BOOST_PP_FOR_513_C(BOOST_PP_BOOL(p(514, s)), s, p, o, m)
 # define BOOST_PP_FOR_514(s, p, o, m) BOOST_PP_FOR_514_C(BOOST_PP_BOOL(p(515, s)), s, p, o, m)

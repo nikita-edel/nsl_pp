@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_TUPLE_TO_LIST_HPP
-# define BOOST_PREPROCESSOR_TUPLE_TO_LIST_HPP
+# ifndef BOOST_PREPROCESSOR_TUPLE_TO_LIST_H
+# define BOOST_PREPROCESSOR_TUPLE_TO_LIST_H
 #
 # include <boost/preprocessor/cat.h>
 # include <boost/preprocessor/config/config.h>

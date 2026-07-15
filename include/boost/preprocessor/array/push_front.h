@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ARRAY_PUSH_FRONT_HPP
-# define BOOST_PREPROCESSOR_ARRAY_PUSH_FRONT_HPP
+# ifndef BOOST_PREPROCESSOR_ARRAY_PUSH_FRONT_H
+# define BOOST_PREPROCESSOR_ARRAY_PUSH_FRONT_H
 #
 # include <boost/preprocessor/arithmetic/inc.h>
 # include <boost/preprocessor/array/data.h>

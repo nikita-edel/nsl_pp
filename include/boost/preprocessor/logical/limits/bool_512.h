@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_LOGICAL_BOOL_512_HPP
-# define BOOST_PREPROCESSOR_LOGICAL_BOOL_512_HPP
+# ifndef BOOST_PREPROCESSOR_LOGICAL_BOOL_512_H
+# define BOOST_PREPROCESSOR_LOGICAL_BOOL_512_H
 #
 # define BOOST_PP_BOOL_257 1
 # define BOOST_PP_BOOL_258 1

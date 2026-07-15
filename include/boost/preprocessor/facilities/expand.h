@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_FACILITIES_EXPAND_HPP
-# define BOOST_PREPROCESSOR_FACILITIES_EXPAND_HPP
+# ifndef BOOST_PREPROCESSOR_FACILITIES_EXPAND_H
+# define BOOST_PREPROCESSOR_FACILITIES_EXPAND_H
 #
 # include <boost/preprocessor/config/config.h>
 #

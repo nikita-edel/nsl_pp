@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_TUPLE_INSERT_HPP
-# define BOOST_PREPROCESSOR_TUPLE_INSERT_HPP
+# ifndef BOOST_PREPROCESSOR_TUPLE_INSERT_H
+# define BOOST_PREPROCESSOR_TUPLE_INSERT_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/array/insert.h>
@@ -29,4 +29,4 @@
     BOOST_PP_ARRAY_TO_TUPLE(BOOST_PP_ARRAY_INSERT_D(d, BOOST_PP_TUPLE_TO_ARRAY(tuple), i, elem)) \
 /**/
 #
-# endif // BOOST_PREPROCESSOR_TUPLE_INSERT_HPP
+# endif // BOOST_PREPROCESSOR_TUPLE_INSERT_H

@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_VARIADIC_HPP
-# define BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_VARIADIC_HPP
+# ifndef BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_VARIADIC_H
+# define BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_VARIADIC_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/punctuation/is_begin_parens.h>
@@ -77,4 +77,4 @@
 /**/
 #define BOOST_PP_IS_EMPTY_ZERO(...) 0
 # endif /* BOOST_PP_VARIADICS_MSVC && _MSC_VER <= 1400 */
-# endif /* BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_VARIADIC_HPP */
+# endif /* BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_VARIADIC_H */

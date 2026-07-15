@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_DEBUG_HPP
-# define BOOST_PREPROCESSOR_DEBUG_HPP
+# ifndef BOOST_PREPROCESSOR_DEBUG_H
+# define BOOST_PREPROCESSOR_DEBUG_H
 #
 # include <boost/preprocessor/debug/assert.h>
 # include <boost/preprocessor/debug/line.h>

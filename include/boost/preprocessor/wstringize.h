@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_WSTRINGIZE_HPP
-# define BOOST_PREPROCESSOR_WSTRINGIZE_HPP
+# ifndef BOOST_PREPROCESSOR_WSTRINGIZE_H
+# define BOOST_PREPROCESSOR_WSTRINGIZE_H
 #
 # include <boost/preprocessor/config/config.h>
 #

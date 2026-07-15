@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SEQ_REPLACE_HPP
-# define BOOST_PREPROCESSOR_SEQ_REPLACE_HPP
+# ifndef BOOST_PREPROCESSOR_SEQ_REPLACE_H
+# define BOOST_PREPROCESSOR_SEQ_REPLACE_H
 #
 # include <boost/preprocessor/arithmetic/dec.h>
 # include <boost/preprocessor/arithmetic/inc.h>

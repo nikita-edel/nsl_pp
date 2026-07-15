@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_CONFIG_LIMITS_HPP
-# define BOOST_PREPROCESSOR_CONFIG_LIMITS_HPP
+# ifndef BOOST_PREPROCESSOR_CONFIG_LIMITS_H
+# define BOOST_PREPROCESSOR_CONFIG_LIMITS_H
 #
 # include <boost/preprocessor/config/config.h>
 #

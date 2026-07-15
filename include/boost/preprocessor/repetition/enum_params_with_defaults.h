@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_REPETITION_ENUM_PARAMS_WITH_DEFAULTS_HPP
-# define BOOST_PREPROCESSOR_REPETITION_ENUM_PARAMS_WITH_DEFAULTS_HPP
+# ifndef BOOST_PREPROCESSOR_REPETITION_ENUM_PARAMS_WITH_DEFAULTS_H
+# define BOOST_PREPROCESSOR_REPETITION_ENUM_PARAMS_WITH_DEFAULTS_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/repetition/enum_binary_params.h>

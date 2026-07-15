@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ENUM_SHIFTED_PARAMS_HPP
-# define BOOST_PREPROCESSOR_ENUM_SHIFTED_PARAMS_HPP
+# ifndef BOOST_PREPROCESSOR_ENUM_SHIFTED_PARAMS_H
+# define BOOST_PREPROCESSOR_ENUM_SHIFTED_PARAMS_H
 #
 # include <boost/preprocessor/repetition/enum_shifted_params.h>
 #

@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ARITHMETIC_DETAIL_MAXIMUM_NUMBER_HPP
-# define BOOST_PREPROCESSOR_ARITHMETIC_DETAIL_MAXIMUM_NUMBER_HPP
+# ifndef BOOST_PREPROCESSOR_ARITHMETIC_DETAIL_MAXIMUM_NUMBER_H
+# define BOOST_PREPROCESSOR_ARITHMETIC_DETAIL_MAXIMUM_NUMBER_H
 #
 # include <boost/preprocessor/config/limits.h>
 #

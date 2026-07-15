@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SEQ_ENUM_512_HPP
-# define BOOST_PREPROCESSOR_SEQ_ENUM_512_HPP
+# ifndef BOOST_PREPROCESSOR_SEQ_ENUM_512_H
+# define BOOST_PREPROCESSOR_SEQ_ENUM_512_H
 #
 # define BOOST_PP_SEQ_ENUM_257(x) x, BOOST_PP_SEQ_ENUM_256
 # define BOOST_PP_SEQ_ENUM_258(x) x, BOOST_PP_SEQ_ENUM_257

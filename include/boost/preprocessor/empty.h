@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_EMPTY_HPP
-# define BOOST_PREPROCESSOR_EMPTY_HPP
+# ifndef BOOST_PREPROCESSOR_EMPTY_H
+# define BOOST_PREPROCESSOR_EMPTY_H
 #
 # include <boost/preprocessor/facilities/empty.h>
 #

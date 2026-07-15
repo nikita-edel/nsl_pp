@@ -10,10 +10,10 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_HPP
-# define BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_HPP
+# ifndef BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_H
+# define BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/facilities/is_empty_variadic.h>
 #
-# endif /* BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_HPP */
+# endif /* BOOST_PREPROCESSOR_FACILITIES_IS_EMPTY_H */

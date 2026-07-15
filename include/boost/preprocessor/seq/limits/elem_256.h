@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SEQ_ELEM_256_HPP
-# define BOOST_PREPROCESSOR_SEQ_ELEM_256_HPP
+# ifndef BOOST_PREPROCESSOR_SEQ_ELEM_256_H
+# define BOOST_PREPROCESSOR_SEQ_ELEM_256_H
 #
 # define BOOST_PP_SEQ_ELEM_0(x) x, BOOST_PP_NIL
 # define BOOST_PP_SEQ_ELEM_1(_) BOOST_PP_SEQ_ELEM_0

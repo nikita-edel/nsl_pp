@@ -9,11 +9,11 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_FACILITIES_CHECK_EMPTY_HPP
-# define BOOST_PREPROCESSOR_FACILITIES_CHECK_EMPTY_HPP
+# ifndef BOOST_PREPROCESSOR_FACILITIES_CHECK_EMPTY_H
+# define BOOST_PREPROCESSOR_FACILITIES_CHECK_EMPTY_H
 # include <boost/preprocessor/variadic/has_opt.h>
 # if BOOST_PP_VARIADIC_HAS_OPT()
 # include <boost/preprocessor/facilities/is_empty_variadic.h>
 # define BOOST_PP_CHECK_EMPTY(...) BOOST_PP_IS_EMPTY_OPT(__VA_ARGS__)
 # endif /* BOOST_PP_VARIADIC_HAS_OPT() */
-# endif /* BOOST_PREPROCESSOR_FACILITIES_CHECK_EMPTY_HPP */
+# endif /* BOOST_PREPROCESSOR_FACILITIES_CHECK_EMPTY_H */

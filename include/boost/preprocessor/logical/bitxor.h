@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_LOGICAL_BITXOR_HPP
-# define BOOST_PREPROCESSOR_LOGICAL_BITXOR_HPP
+# ifndef BOOST_PREPROCESSOR_LOGICAL_BITXOR_H
+# define BOOST_PREPROCESSOR_LOGICAL_BITXOR_H
 #
 # include <boost/preprocessor/config/config.h>
 #

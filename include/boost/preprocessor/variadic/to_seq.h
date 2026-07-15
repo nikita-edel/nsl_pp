@@ -10,8 +10,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_VARIADIC_TO_SEQ_HPP
-# define BOOST_PREPROCESSOR_VARIADIC_TO_SEQ_HPP
+# ifndef BOOST_PREPROCESSOR_VARIADIC_TO_SEQ_H
+# define BOOST_PREPROCESSOR_VARIADIC_TO_SEQ_H
 #
 # include <boost/preprocessor/config/config.h>
 # include <boost/preprocessor/tuple/to_seq.h>

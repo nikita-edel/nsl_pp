@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_LIST_TO_SEQ_HPP
-# define BOOST_PREPROCESSOR_LIST_TO_SEQ_HPP
+# ifndef BOOST_PREPROCESSOR_LIST_TO_SEQ_H
+# define BOOST_PREPROCESSOR_LIST_TO_SEQ_H
 #
 # include <boost/preprocessor/list/for_each.h>
 #
@@ -29,4 +29,4 @@
     BOOST_PP_LIST_FOR_EACH_R(r, BOOST_PP_LIST_TO_SEQ_MACRO, ~, list) \
     /**/
 #
-# endif /* BOOST_PREPROCESSOR_LIST_TO_SEQ_HPP */
+# endif /* BOOST_PREPROCESSOR_LIST_TO_SEQ_H */

@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_SEQ_SIZE_256_HPP
-# define BOOST_PREPROCESSOR_SEQ_SIZE_256_HPP
+# ifndef BOOST_PREPROCESSOR_SEQ_SIZE_256_H
+# define BOOST_PREPROCESSOR_SEQ_SIZE_256_H
 #
 # define BOOST_PP_SEQ_SIZE_0(_) BOOST_PP_SEQ_SIZE_1
 # define BOOST_PP_SEQ_SIZE_1(_) BOOST_PP_SEQ_SIZE_2

@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ARITHMETIC_HPP
-# define BOOST_PREPROCESSOR_ARITHMETIC_HPP
+# ifndef BOOST_PREPROCESSOR_ARITHMETIC_H
+# define BOOST_PREPROCESSOR_ARITHMETIC_H
 #
 # include <boost/preprocessor/arithmetic/add.h>
 # include <boost/preprocessor/arithmetic/dec.h>

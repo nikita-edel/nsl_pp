@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_ARITHMETIC_MOD_HPP
-# define BOOST_PREPROCESSOR_ARITHMETIC_MOD_HPP
+# ifndef BOOST_PREPROCESSOR_ARITHMETIC_MOD_H
+# define BOOST_PREPROCESSOR_ARITHMETIC_MOD_H
 #
 # include <boost/preprocessor/config/config.h>
 #

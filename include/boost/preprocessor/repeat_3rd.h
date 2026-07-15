@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_REPEAT_3RD_HPP
-# define BOOST_PREPROCESSOR_REPEAT_3RD_HPP
+# ifndef BOOST_PREPROCESSOR_REPEAT_3RD_H
+# define BOOST_PREPROCESSOR_REPEAT_3RD_H
 #
 # include <boost/preprocessor/repetition/repeat.h>
 #

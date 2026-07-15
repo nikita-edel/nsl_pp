@@ -12,8 +12,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_PREPROCESSOR_FACILITIES_IDENTITY_HPP
-# define BOOST_PREPROCESSOR_FACILITIES_IDENTITY_HPP
+# ifndef BOOST_PREPROCESSOR_FACILITIES_IDENTITY_H
+# define BOOST_PREPROCESSOR_FACILITIES_IDENTITY_H
 #
 # include <boost/preprocessor/facilities/empty.h>
 # include <boost/preprocessor/tuple/eat.h>

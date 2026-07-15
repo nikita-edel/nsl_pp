@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org/libs/preprocessor for documentation. */
 #
-# ifndef BOOST_PREPROCESSOR_HPP
-# define BOOST_PREPROCESSOR_HPP
+# ifndef BOOST_PREPROCESSOR_H
+# define BOOST_PREPROCESSOR_H
 #
 # include <boost/preprocessor/library.h>
 #
