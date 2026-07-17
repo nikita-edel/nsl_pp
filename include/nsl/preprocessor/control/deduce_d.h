@@ -14,12 +14,12 @@
 # ifndef NSL_PREPROCESSOR_CONTROL_DEDUCE_D_H
 # define NSL_PREPROCESSOR_CONTROL_DEDUCE_D_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
-# include <nsl/preprocessor/control/while.h>
-# include <nsl/preprocessor/detail/auto_rec.h>
+# include "nsl/preprocessor/control/while.h"
+# include "nsl/preprocessor/detail/auto_rec.h"
 #
 # /* NSL_PP_DEDUCE_D */
 #
@@ -27,10 +27,10 @@
 #
 # else
 #
-# include <nsl/preprocessor/arithmetic/dec.h>
-# include <nsl/preprocessor/control/while.h>
-# include <nsl/preprocessor/detail/auto_rec.h>
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/arithmetic/dec.h"
+# include "nsl/preprocessor/control/while.h"
+# include "nsl/preprocessor/detail/auto_rec.h"
+# include "nsl/preprocessor/config/limits.h"
 #
 # /* NSL_PP_DEDUCE_D */
 #

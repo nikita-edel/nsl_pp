@@ -10,13 +10,13 @@
 # /* See http://www.boost.org for most recent version. */
 #
 # include "test.h"
-# include <nsl/preprocessor/variadic/has_opt.h>
+# include "nsl/preprocessor/variadic/has_opt.h"
 
 # if NSL_PP_VARIADIC_HAS_OPT()
 
-# include <nsl/preprocessor/facilities/empty.h>
-# include <nsl/preprocessor/facilities/va_opt.h>
-# include <nsl/preprocessor/variadic/elem.h>
+# include "nsl/preprocessor/facilities/empty.h"
+# include "nsl/preprocessor/facilities/va_opt.h"
+# include "nsl/preprocessor/variadic/elem.h"
 
 #define DATA
 #define OBJECT OBJECT2

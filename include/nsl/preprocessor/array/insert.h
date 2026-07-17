@@ -14,19 +14,19 @@
 # ifndef NSL_PREPROCESSOR_ARRAY_INSERT_H
 # define NSL_PREPROCESSOR_ARRAY_INSERT_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
-# include <nsl/preprocessor/arithmetic/inc.h>
-# include <nsl/preprocessor/array/elem.h>
-# include <nsl/preprocessor/array/push_back.h>
-# include <nsl/preprocessor/array/size.h>
-# include <nsl/preprocessor/comparison/not_equal.h>
-# include <nsl/preprocessor/control/deduce_d.h>
-# include <nsl/preprocessor/control/iif.h>
-# include <nsl/preprocessor/control/while.h>
-# include <nsl/preprocessor/tuple/elem.h>
+# include "nsl/preprocessor/arithmetic/inc.h"
+# include "nsl/preprocessor/array/elem.h"
+# include "nsl/preprocessor/array/push_back.h"
+# include "nsl/preprocessor/array/size.h"
+# include "nsl/preprocessor/comparison/not_equal.h"
+# include "nsl/preprocessor/control/deduce_d.h"
+# include "nsl/preprocessor/control/iif.h"
+# include "nsl/preprocessor/control/while.h"
+# include "nsl/preprocessor/tuple/elem.h"
 #
 # /* NSL_PP_ARRAY_INSERT */
 #
@@ -60,20 +60,20 @@
 #
 # else
 #
-# include <nsl/preprocessor/arithmetic/inc.h>
-# include <nsl/preprocessor/array/elem.h>
-# include <nsl/preprocessor/array/push_back.h>
-# include <nsl/preprocessor/array/size.h>
-# include <nsl/preprocessor/comparison/not_equal.h>
-# include <nsl/preprocessor/config/limits.h>
-# include <nsl/preprocessor/control/deduce_d.h>
-# include <nsl/preprocessor/control/iif.h>
-# include <nsl/preprocessor/control/while.h>
+# include "nsl/preprocessor/arithmetic/inc.h"
+# include "nsl/preprocessor/array/elem.h"
+# include "nsl/preprocessor/array/push_back.h"
+# include "nsl/preprocessor/array/size.h"
+# include "nsl/preprocessor/comparison/not_equal.h"
+# include "nsl/preprocessor/config/limits.h"
+# include "nsl/preprocessor/control/deduce_d.h"
+# include "nsl/preprocessor/control/iif.h"
+# include "nsl/preprocessor/control/while.h"
 # if NSL_PP_LIMIT_TUPLE == 256
-# include <nsl/preprocessor/facilities/identity.h>
-# include <nsl/preprocessor/logical/not.h>
+# include "nsl/preprocessor/facilities/identity.h"
+# include "nsl/preprocessor/logical/not.h"
 # endif
-# include <nsl/preprocessor/tuple/elem.h>
+# include "nsl/preprocessor/tuple/elem.h"
 #
 # /* NSL_PP_ARRAY_INSERT */
 #

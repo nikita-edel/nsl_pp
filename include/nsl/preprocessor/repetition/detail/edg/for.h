@@ -15,12 +15,12 @@
 # ifndef NSL_PREPROCESSOR_REPETITION_DETAIL_EDG_FOR_H
 # define NSL_PREPROCESSOR_REPETITION_DETAIL_EDG_FOR_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
-# include <nsl/preprocessor/control/if.h>
-# include <nsl/preprocessor/tuple/eat.h>
+# include "nsl/preprocessor/control/if.h"
+# include "nsl/preprocessor/tuple/eat.h"
 #
 # define NSL_PP_FOR_1(s, p, o, m) NSL_PP_FOR_1_I(s, p, o, m)
 # define NSL_PP_FOR_2(s, p, o, m) NSL_PP_FOR_2_I(s, p, o, m)
@@ -538,19 +538,19 @@
 #
 # else
 #
-# include <nsl/preprocessor/control/if.h>
-# include <nsl/preprocessor/tuple/eat.h>
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/control/if.h"
+# include "nsl/preprocessor/tuple/eat.h"
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_FOR == 256
-# include <nsl/preprocessor/repetition/detail/edg/limits/for_256.h>
+# include "nsl/preprocessor/repetition/detail/edg/limits/for_256.h"
 # elif NSL_PP_LIMIT_FOR == 512
-# include <nsl/preprocessor/repetition/detail/edg/limits/for_256.h>
-# include <nsl/preprocessor/repetition/detail/edg/limits/for_512.h>
+# include "nsl/preprocessor/repetition/detail/edg/limits/for_256.h"
+# include "nsl/preprocessor/repetition/detail/edg/limits/for_512.h"
 # elif NSL_PP_LIMIT_FOR == 1024
-# include <nsl/preprocessor/repetition/detail/edg/limits/for_256.h>
-# include <nsl/preprocessor/repetition/detail/edg/limits/for_512.h>
-# include <nsl/preprocessor/repetition/detail/edg/limits/for_1024.h>
+# include "nsl/preprocessor/repetition/detail/edg/limits/for_256.h"
+# include "nsl/preprocessor/repetition/detail/edg/limits/for_512.h"
+# include "nsl/preprocessor/repetition/detail/edg/limits/for_1024.h"
 # else
 # error Incorrect value for the NSL_PP_LIMIT_FOR limit
 # endif

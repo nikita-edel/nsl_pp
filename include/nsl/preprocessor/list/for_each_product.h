@@ -14,19 +14,19 @@
 # ifndef NSL_PREPROCESSOR_LIST_FOR_EACH_PRODUCT_H
 # define NSL_PREPROCESSOR_LIST_FOR_EACH_PRODUCT_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/control/if.h>
-# include <nsl/preprocessor/facilities/overload.h>
-# include <nsl/preprocessor/list/adt.h>
-# include <nsl/preprocessor/list/to_tuple.h>
-# include <nsl/preprocessor/repetition/for.h>
-# include <nsl/preprocessor/tuple/elem.h>
-# include <nsl/preprocessor/tuple/to_list.h>
-# include <nsl/preprocessor/tuple/rem.h>
-# include <nsl/preprocessor/tuple/reverse.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/control/if.h"
+# include "nsl/preprocessor/facilities/overload.h"
+# include "nsl/preprocessor/list/adt.h"
+# include "nsl/preprocessor/list/to_tuple.h"
+# include "nsl/preprocessor/repetition/for.h"
+# include "nsl/preprocessor/tuple/elem.h"
+# include "nsl/preprocessor/tuple/to_list.h"
+# include "nsl/preprocessor/tuple/rem.h"
+# include "nsl/preprocessor/tuple/reverse.h"
 # if NSL_PP_VARIADICS_MSVC
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/facilities/empty.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/facilities/empty.h"
 # endif
 #
 # /* NSL_PP_LIST_FOR_EACH_PRODUCT */

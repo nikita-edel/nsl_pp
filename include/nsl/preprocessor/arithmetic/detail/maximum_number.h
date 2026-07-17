@@ -12,7 +12,7 @@
 # ifndef NSL_PREPROCESSOR_ARITHMETIC_DETAIL_MAXIMUM_NUMBER_H
 # define NSL_PREPROCESSOR_ARITHMETIC_DETAIL_MAXIMUM_NUMBER_H
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 #
 # define NSL_PP_DETAIL_MAXIMUM_NUMBER NSL_PP_LIMIT_MAG
 #

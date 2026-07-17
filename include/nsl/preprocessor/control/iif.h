@@ -12,7 +12,7 @@
 # ifndef NSL_PREPROCESSOR_CONTROL_IIF_H
 # define NSL_PREPROCESSOR_CONTROL_IIF_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_MWCC()
 #    define NSL_PP_IIF(bit, t, f) NSL_PP_IIF_I(bit, t, f)

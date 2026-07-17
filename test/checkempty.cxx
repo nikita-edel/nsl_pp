@@ -10,11 +10,11 @@
 # /* See http://www.boost.org for most recent version. */
 #
 # include "test.h"
-# include <nsl/preprocessor/facilities/check_empty.h>
+# include "nsl/preprocessor/facilities/check_empty.h"
 
 # if NSL_PP_VARIADIC_HAS_OPT()
 
-# include <nsl/preprocessor/facilities/empty.h>
+# include "nsl/preprocessor/facilities/empty.h"
 
 #define DATA
 #define OBJECT OBJECT2

@@ -12,6 +12,6 @@
 # ifndef NSL_PREPROCESSOR_EXPAND_H
 # define NSL_PREPROCESSOR_EXPAND_H
 #
-# include <nsl/preprocessor/facilities/expand.h>
+# include "nsl/preprocessor/facilities/expand.h"
 #
 # endif

@@ -12,8 +12,8 @@
 # ifndef NSL_PREPROCESSOR_IS_BEGIN_PARENS_H
 # define NSL_PREPROCESSOR_IS_BEGIN_PARENS_H
 
-#include <nsl/preprocessor/config/config.h>
-#include <nsl/preprocessor/punctuation/detail/is_begin_parens.h>
+#include "nsl/preprocessor/config/config.h"
+#include "nsl/preprocessor/punctuation/detail/is_begin_parens.h"
 
 #if NSL_PP_VARIADICS_MSVC && _MSC_VER <= 1400
 

@@ -15,14 +15,14 @@
 # ifndef NSL_PREPROCESSOR_LIST_FOLD_RIGHT_H
 # define NSL_PREPROCESSOR_LIST_FOLD_RIGHT_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/control/while.h>
-# include <nsl/preprocessor/debug/error.h>
-# include <nsl/preprocessor/detail/auto_rec.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/control/while.h"
+# include "nsl/preprocessor/debug/error.h"
+# include "nsl/preprocessor/detail/auto_rec.h"
 #
 # if 0
 #    define NSL_PP_LIST_FOLD_RIGHT(op, state, list)
@@ -37,24 +37,24 @@
 # define NSL_PP_LIST_FOLD_RIGHT_2ND_D NSL_PP_LIST_FOLD_RIGHT_D
 #
 # if NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_EDG()
-#    include <nsl/preprocessor/list/detail/edg/fold_right.h>
+#    include "nsl/preprocessor/list/detail/edg/fold_right.h"
 # else
-#    include <nsl/preprocessor/list/detail/fold_right.h>
+#    include "nsl/preprocessor/list/detail/fold_right.h"
 # endif
 #
 # else
 #
-# include <nsl/preprocessor/arithmetic/dec.h>
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/control/while.h>
-# include <nsl/preprocessor/debug/error.h>
-# include <nsl/preprocessor/detail/auto_rec.h>
+# include "nsl/preprocessor/arithmetic/dec.h"
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/control/while.h"
+# include "nsl/preprocessor/debug/error.h"
+# include "nsl/preprocessor/detail/auto_rec.h"
 #
 # if 0
 #    define NSL_PP_LIST_FOLD_RIGHT(op, state, list)
 # endif
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_WHILE == 256
 # define NSL_PP_LIST_FOLD_RIGHT NSL_PP_CAT(NSL_PP_LIST_FOLD_RIGHT_, NSL_PP_DEC(NSL_PP_AUTO_REC(NSL_PP_WHILE_P, 256)))
@@ -74,9 +74,9 @@
 # define NSL_PP_LIST_FOLD_RIGHT_2ND_D NSL_PP_LIST_FOLD_RIGHT_D
 #
 # if NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_EDG()
-#    include <nsl/preprocessor/list/detail/edg/fold_right.h>
+#    include "nsl/preprocessor/list/detail/edg/fold_right.h"
 # else
-#    include <nsl/preprocessor/list/detail/fold_right.h>
+#    include "nsl/preprocessor/list/detail/fold_right.h"
 # endif
 #
 # endif

@@ -14,10 +14,10 @@
 # ifndef NSL_PREPROCESSOR_LIST_FOR_EACH_H
 # define NSL_PREPROCESSOR_LIST_FOR_EACH_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/list/for_each_i.h>
-# include <nsl/preprocessor/tuple/elem.h>
-# include <nsl/preprocessor/tuple/rem.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/list/for_each_i.h"
+# include "nsl/preprocessor/tuple/elem.h"
+# include "nsl/preprocessor/tuple/rem.h"
 #
 # /* NSL_PP_LIST_FOR_EACH */
 #

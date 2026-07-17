@@ -14,8 +14,8 @@
 # ifndef NSL_PREPROCESSOR_REPETITION_ENUM_PARAMS_WITH_DEFAULTS_H
 # define NSL_PREPROCESSOR_REPETITION_ENUM_PARAMS_WITH_DEFAULTS_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/repetition/enum_binary_params.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/repetition/enum_binary_params.h"
 #
 # /* NSL_PP_ENUM_PARAMS_WITH_DEFAULTS */
 #

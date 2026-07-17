@@ -12,10 +12,10 @@
 # ifndef NSL_PREPROCESSOR_FACILITIES_APPLY_H
 # define NSL_PREPROCESSOR_FACILITIES_APPLY_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/control/expr_iif.h>
-# include <nsl/preprocessor/detail/is_unary.h>
-# include <nsl/preprocessor/tuple/rem.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/control/expr_iif.h"
+# include "nsl/preprocessor/detail/is_unary.h"
+# include "nsl/preprocessor/tuple/rem.h"
 #
 # /* NSL_PP_APPLY */
 #

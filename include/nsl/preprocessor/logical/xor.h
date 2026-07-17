@@ -14,9 +14,9 @@
 # ifndef NSL_PREPROCESSOR_LOGICAL_XOR_H
 # define NSL_PREPROCESSOR_LOGICAL_XOR_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/logical/bool.h>
-# include <nsl/preprocessor/logical/bitxor.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/logical/bool.h"
+# include "nsl/preprocessor/logical/bitxor.h"
 #
 # /* NSL_PP_XOR */
 #

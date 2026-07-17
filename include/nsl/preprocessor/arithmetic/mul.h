@@ -15,15 +15,15 @@
 # ifndef NSL_PREPROCESSOR_ARITHMETIC_MUL_H
 # define NSL_PREPROCESSOR_ARITHMETIC_MUL_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
-# include <nsl/preprocessor/arithmetic/add.h>
-# include <nsl/preprocessor/arithmetic/dec.h>
-# include <nsl/preprocessor/control/while.h>
-# include <nsl/preprocessor/tuple/elem.h>
-# include <nsl/preprocessor/tuple/rem.h>
+# include "nsl/preprocessor/arithmetic/add.h"
+# include "nsl/preprocessor/arithmetic/dec.h"
+# include "nsl/preprocessor/control/while.h"
+# include "nsl/preprocessor/tuple/elem.h"
+# include "nsl/preprocessor/tuple/rem.h"
 #
 # /* NSL_PP_MUL */
 #
@@ -56,19 +56,19 @@
 #
 # else
 #
-# include <nsl/preprocessor/arithmetic/add.h>
-# include <nsl/preprocessor/arithmetic/dec.h>
-# include <nsl/preprocessor/control/iif.h>
-# include <nsl/preprocessor/control/while.h>
-# include <nsl/preprocessor/facilities/identity.h>
-# include <nsl/preprocessor/logical/bitand.h>
-# include <nsl/preprocessor/logical/bool.h>
-# include <nsl/preprocessor/logical/compl.h>
-# include <nsl/preprocessor/tuple/elem.h>
-# include <nsl/preprocessor/tuple/rem.h>
-# include <nsl/preprocessor/arithmetic/detail/is_minimum_number.h>
-# include <nsl/preprocessor/arithmetic/detail/is_maximum_number.h>
-# include <nsl/preprocessor/arithmetic/detail/is_1_number.h>
+# include "nsl/preprocessor/arithmetic/add.h"
+# include "nsl/preprocessor/arithmetic/dec.h"
+# include "nsl/preprocessor/control/iif.h"
+# include "nsl/preprocessor/control/while.h"
+# include "nsl/preprocessor/facilities/identity.h"
+# include "nsl/preprocessor/logical/bitand.h"
+# include "nsl/preprocessor/logical/bool.h"
+# include "nsl/preprocessor/logical/compl.h"
+# include "nsl/preprocessor/tuple/elem.h"
+# include "nsl/preprocessor/tuple/rem.h"
+# include "nsl/preprocessor/arithmetic/detail/is_minimum_number.h"
+# include "nsl/preprocessor/arithmetic/detail/is_maximum_number.h"
+# include "nsl/preprocessor/arithmetic/detail/is_1_number.h"
 #
 # /* NSL_PP_MUL */
 #

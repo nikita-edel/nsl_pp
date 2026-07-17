@@ -12,11 +12,11 @@
 # ifndef NSL_PREPROCESSOR_SEQ_TRANSFORM_H
 # define NSL_PREPROCESSOR_SEQ_TRANSFORM_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/seq/fold_left.h>
-# include <nsl/preprocessor/seq/seq.h>
-# include <nsl/preprocessor/tuple/elem.h>
-# include <nsl/preprocessor/tuple/rem.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/seq/fold_left.h"
+# include "nsl/preprocessor/seq/seq.h"
+# include "nsl/preprocessor/tuple/elem.h"
+# include "nsl/preprocessor/tuple/rem.h"
 #
 # /* NSL_PP_SEQ_TRANSFORM */
 #

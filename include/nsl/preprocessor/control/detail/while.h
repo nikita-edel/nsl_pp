@@ -15,13 +15,13 @@
 # ifndef NSL_PREPROCESSOR_CONTROL_DETAIL_WHILE_H
 # define NSL_PREPROCESSOR_CONTROL_DETAIL_WHILE_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
-# include <nsl/preprocessor/control/iif.h>
-# include <nsl/preprocessor/logical/bool.h>
-# include <nsl/preprocessor/tuple/eat.h>
+# include "nsl/preprocessor/control/iif.h"
+# include "nsl/preprocessor/logical/bool.h"
+# include "nsl/preprocessor/tuple/eat.h"
 #
 # define NSL_PP_WHILE_1(p, o, s) NSL_PP_WHILE_1_C(NSL_PP_BOOL(p(2, s)), p, o, s)
 # define NSL_PP_WHILE_2(p, o, s) NSL_PP_WHILE_2_C(NSL_PP_BOOL(p(3, s)), p, o, s)
@@ -539,21 +539,21 @@
 #
 # else
 #
-# include <nsl/preprocessor/control/iif.h>
-# include <nsl/preprocessor/logical/bool.h>
-# include <nsl/preprocessor/tuple/eat.h>
+# include "nsl/preprocessor/control/iif.h"
+# include "nsl/preprocessor/logical/bool.h"
+# include "nsl/preprocessor/tuple/eat.h"
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_WHILE == 256
-# include <nsl/preprocessor/control/detail/limits/while_256.h>
+# include "nsl/preprocessor/control/detail/limits/while_256.h"
 # elif NSL_PP_LIMIT_WHILE == 512
-# include <nsl/preprocessor/control/detail/limits/while_256.h>
-# include <nsl/preprocessor/control/detail/limits/while_512.h>
+# include "nsl/preprocessor/control/detail/limits/while_256.h"
+# include "nsl/preprocessor/control/detail/limits/while_512.h"
 # elif NSL_PP_LIMIT_WHILE == 1024
-# include <nsl/preprocessor/control/detail/limits/while_256.h>
-# include <nsl/preprocessor/control/detail/limits/while_512.h>
-# include <nsl/preprocessor/control/detail/limits/while_1024.h>
+# include "nsl/preprocessor/control/detail/limits/while_256.h"
+# include "nsl/preprocessor/control/detail/limits/while_512.h"
+# include "nsl/preprocessor/control/detail/limits/while_1024.h"
 # else
 # error Incorrect value for the NSL_PP_LIMIT_WHILE limit
 # endif

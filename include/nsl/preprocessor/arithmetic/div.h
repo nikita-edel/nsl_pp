@@ -15,12 +15,12 @@
 # ifndef NSL_PREPROCESSOR_ARITHMETIC_DIV_H
 # define NSL_PREPROCESSOR_ARITHMETIC_DIV_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
-# include <nsl/preprocessor/arithmetic/detail/div_base.h>
-# include <nsl/preprocessor/tuple/elem.h>
+# include "nsl/preprocessor/arithmetic/detail/div_base.h"
+# include "nsl/preprocessor/tuple/elem.h"
 #
 # /* NSL_PP_DIV */
 #
@@ -42,11 +42,11 @@
 #
 # else
 #
-# include <nsl/preprocessor/arithmetic/detail/div_base.h>
-# include <nsl/preprocessor/control/iif.h>
-# include <nsl/preprocessor/facilities/identity.h>
-# include <nsl/preprocessor/tuple/elem.h>
-# include <nsl/preprocessor/arithmetic/detail/is_1_number.h>
+# include "nsl/preprocessor/arithmetic/detail/div_base.h"
+# include "nsl/preprocessor/control/iif.h"
+# include "nsl/preprocessor/facilities/identity.h"
+# include "nsl/preprocessor/tuple/elem.h"
+# include "nsl/preprocessor/arithmetic/detail/is_1_number.h"
 #
 # /* NSL_PP_DIV */
 #

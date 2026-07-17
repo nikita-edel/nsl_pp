@@ -14,8 +14,8 @@
 # ifndef NSL_PREPROCESSOR_CONTROL_DETAIL_MSVC_WHILE_H
 # define NSL_PREPROCESSOR_CONTROL_DETAIL_MSVC_WHILE_H
 #
-# include <nsl/preprocessor/control/if.h>
-# include <nsl/preprocessor/tuple/eat.h>
+# include "nsl/preprocessor/control/if.h"
+# include "nsl/preprocessor/tuple/eat.h"
 #
 # define NSL_PP_WHILE_1(p, o, s) NSL_PP_IF(p(2, s), NSL_PP_WHILE_2, s NSL_PP_TUPLE_EAT_3)(p, o, o(2, s))
 # define NSL_PP_WHILE_2(p, o, s) NSL_PP_IF(p(3, s), NSL_PP_WHILE_3, s NSL_PP_TUPLE_EAT_3)(p, o, o(3, s))

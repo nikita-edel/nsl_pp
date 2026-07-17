@@ -12,16 +12,16 @@
 # ifndef NSL_PREPROCESSOR_SEQ_FOR_EACH_H
 # define NSL_PREPROCESSOR_SEQ_FOR_EACH_H
 #
-# include <nsl/preprocessor/arithmetic/dec.h>
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/control/if.h>
-# include <nsl/preprocessor/control/iif.h>
-# include <nsl/preprocessor/repetition/for.h>
-# include <nsl/preprocessor/seq/seq.h>
-# include <nsl/preprocessor/seq/size.h>
-# include <nsl/preprocessor/seq/detail/is_empty.h>
-# include <nsl/preprocessor/tuple/elem.h>
-# include <nsl/preprocessor/tuple/rem.h>
+# include "nsl/preprocessor/arithmetic/dec.h"
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/control/if.h"
+# include "nsl/preprocessor/control/iif.h"
+# include "nsl/preprocessor/repetition/for.h"
+# include "nsl/preprocessor/seq/seq.h"
+# include "nsl/preprocessor/seq/size.h"
+# include "nsl/preprocessor/seq/detail/is_empty.h"
+# include "nsl/preprocessor/tuple/elem.h"
+# include "nsl/preprocessor/tuple/rem.h"
 #
 # /* NSL_PP_SEQ_FOR_EACH */
 #

@@ -14,7 +14,7 @@
 # ifndef NSL_PREPROCESSOR_SEQ_DETAIL_SPLIT_H
 # define NSL_PREPROCESSOR_SEQ_DETAIL_SPLIT_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # /* NSL_PP_SEQ_SPLIT */
 #
@@ -287,17 +287,17 @@
 #
 # else
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_SEQ == 256
-# include <nsl/preprocessor/seq/detail/limits/split_256.h>
+# include "nsl/preprocessor/seq/detail/limits/split_256.h"
 # elif NSL_PP_LIMIT_SEQ == 512
-# include <nsl/preprocessor/seq/detail/limits/split_256.h>
-# include <nsl/preprocessor/seq/detail/limits/split_512.h>
+# include "nsl/preprocessor/seq/detail/limits/split_256.h"
+# include "nsl/preprocessor/seq/detail/limits/split_512.h"
 # elif NSL_PP_LIMIT_SEQ == 1024
-# include <nsl/preprocessor/seq/detail/limits/split_256.h>
-# include <nsl/preprocessor/seq/detail/limits/split_512.h>
-# include <nsl/preprocessor/seq/detail/limits/split_1024.h>
+# include "nsl/preprocessor/seq/detail/limits/split_256.h"
+# include "nsl/preprocessor/seq/detail/limits/split_512.h"
+# include "nsl/preprocessor/seq/detail/limits/split_1024.h"
 # else
 # error Incorrect value for the NSL_PP_LIMIT_SEQ limit
 # endif

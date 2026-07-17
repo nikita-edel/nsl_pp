@@ -15,7 +15,7 @@
 # ifndef NSL_PREPROCESSOR_CONFIG_LIMITS_H
 # define NSL_PREPROCESSOR_CONFIG_LIMITS_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if defined(NSL_PP_LIMIT_DIM)
 # undef NSL_PP_LIMIT_DIM

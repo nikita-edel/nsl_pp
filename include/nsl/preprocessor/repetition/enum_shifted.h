@@ -14,16 +14,16 @@
 # ifndef NSL_PREPROCESSOR_REPETITION_ENUM_SHIFTED_H
 # define NSL_PREPROCESSOR_REPETITION_ENUM_SHIFTED_H
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/arithmetic/dec.h>
-# include <nsl/preprocessor/arithmetic/inc.h>
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/debug/error.h>
-# include <nsl/preprocessor/detail/auto_rec.h>
-# include <nsl/preprocessor/punctuation/comma_if.h>
-# include <nsl/preprocessor/repetition/repeat.h>
-# include <nsl/preprocessor/tuple/elem.h>
-# include <nsl/preprocessor/tuple/rem.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/arithmetic/dec.h"
+# include "nsl/preprocessor/arithmetic/inc.h"
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/debug/error.h"
+# include "nsl/preprocessor/detail/auto_rec.h"
+# include "nsl/preprocessor/punctuation/comma_if.h"
+# include "nsl/preprocessor/repetition/repeat.h"
+# include "nsl/preprocessor/tuple/elem.h"
+# include "nsl/preprocessor/tuple/rem.h"
 #
 # /* NSL_PP_ENUM_SHIFTED */
 #

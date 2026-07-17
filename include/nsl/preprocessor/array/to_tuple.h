@@ -13,9 +13,9 @@
 # ifndef NSL_PREPROCESSOR_ARRAY_TO_TUPLE_H
 # define NSL_PREPROCESSOR_ARRAY_TO_TUPLE_H
 #
-# include <nsl/preprocessor/array/data.h>
-# include <nsl/preprocessor/array/size.h>
-# include <nsl/preprocessor/control/if.h>
+# include "nsl/preprocessor/array/data.h"
+# include "nsl/preprocessor/array/size.h"
+# include "nsl/preprocessor/control/if.h"
 #
 # /* NSL_PP_ARRAY_TO_TUPLE */
 #

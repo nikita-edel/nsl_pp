@@ -15,16 +15,16 @@
 # ifndef NSL_PREPROCESSOR_REPETITION_REPEAT_FROM_TO_H
 # define NSL_PREPROCESSOR_REPETITION_REPEAT_FROM_TO_H
 #
-# include <nsl/preprocessor/arithmetic/add.h>
-# include <nsl/preprocessor/arithmetic/sub.h>
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/control/while.h>
-# include <nsl/preprocessor/debug/error.h>
-# include <nsl/preprocessor/detail/auto_rec.h>
-# include <nsl/preprocessor/repetition/repeat.h>
-# include <nsl/preprocessor/tuple/elem.h>
-# include <nsl/preprocessor/tuple/rem.h>
+# include "nsl/preprocessor/arithmetic/add.h"
+# include "nsl/preprocessor/arithmetic/sub.h"
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/control/while.h"
+# include "nsl/preprocessor/debug/error.h"
+# include "nsl/preprocessor/detail/auto_rec.h"
+# include "nsl/preprocessor/repetition/repeat.h"
+# include "nsl/preprocessor/tuple/elem.h"
+# include "nsl/preprocessor/tuple/rem.h"
 #
 # /* NSL_PP_REPEAT_FROM_TO */
 #
@@ -42,8 +42,8 @@
 #
 # else
 #
-# include <nsl/preprocessor/arithmetic/dec.h>
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/arithmetic/dec.h"
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_REPEAT == 256
 # define NSL_PP_REPEAT_FROM_TO_1(f, l, m, dt) NSL_PP_REPEAT_FROM_TO_D_1(NSL_PP_DEC(NSL_PP_AUTO_REC(NSL_PP_WHILE_P, 256)), f, l, m, dt)

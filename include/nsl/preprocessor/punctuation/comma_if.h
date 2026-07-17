@@ -14,10 +14,10 @@
 # ifndef NSL_PREPROCESSOR_PUNCTUATION_COMMA_IF_H
 # define NSL_PREPROCESSOR_PUNCTUATION_COMMA_IF_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/control/if.h>
-# include <nsl/preprocessor/facilities/empty.h>
-# include <nsl/preprocessor/punctuation/comma.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/control/if.h"
+# include "nsl/preprocessor/facilities/empty.h"
+# include "nsl/preprocessor/punctuation/comma.h"
 #
 # /* NSL_PP_COMMA_IF */
 #

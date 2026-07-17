@@ -12,7 +12,7 @@
 # ifndef NSL_PREPROCESSOR_VARIADIC_HAS_OPT_H
 # define NSL_PREPROCESSOR_VARIADIC_HAS_OPT_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # /* NSL_PP_VARIADIC_HAS_OPT */
 #
@@ -22,7 +22,7 @@
 #  elif defined(__clang__) && __clang_major__ < 9
 #   define NSL_PP_VARIADIC_HAS_OPT() 0
 #  else
-#   include <nsl/preprocessor/variadic/detail/has_opt.h>
+#   include "nsl/preprocessor/variadic/detail/has_opt.h"
 #   define NSL_PP_VARIADIC_HAS_OPT() \
   NSL_PP_VARIADIC_HAS_OPT_ELEM2(NSL_PP_VARIADIC_HAS_OPT_FUNCTION(?),) \
 /**/

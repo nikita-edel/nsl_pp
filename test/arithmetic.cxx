@@ -9,8 +9,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <nsl/preprocessor/config/limits.h>
-# include <nsl/preprocessor/arithmetic.h>
+# include "nsl/preprocessor/config/limits.h"
+# include "nsl/preprocessor/arithmetic.h"
 # include "test.h"
 
 /* addition */

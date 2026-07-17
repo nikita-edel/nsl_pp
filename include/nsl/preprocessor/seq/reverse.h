@@ -12,9 +12,9 @@
 # ifndef NSL_PREPROCESSOR_SEQ_REVERSE_H
 # define NSL_PREPROCESSOR_SEQ_REVERSE_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/facilities/empty.h>
-# include <nsl/preprocessor/seq/fold_left.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/facilities/empty.h"
+# include "nsl/preprocessor/seq/fold_left.h"
 #
 # /* NSL_PP_SEQ_REVERSE */
 #

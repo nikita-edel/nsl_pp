@@ -14,8 +14,8 @@
 #
 # /* NSL_PP_DETAIL_IS_MAXIMUM_NUMBER */
 #
-# include <nsl/preprocessor/comparison/equal.h>
-# include <nsl/preprocessor/arithmetic/detail/maximum_number.h>
+# include "nsl/preprocessor/comparison/equal.h"
+# include "nsl/preprocessor/arithmetic/detail/maximum_number.h"
 #
 # define NSL_PP_DETAIL_IS_MAXIMUM_NUMBER(x) NSL_PP_EQUAL(x,NSL_PP_DETAIL_MAXIMUM_NUMBER)
 #

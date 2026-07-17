@@ -12,9 +12,9 @@
 # ifndef NSL_PREPROCESSOR_ITERATION_LOCAL_H
 # define NSL_PREPROCESSOR_ITERATION_LOCAL_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/slot/slot.h>
-# include <nsl/preprocessor/tuple/elem.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/slot/slot.h"
+# include "nsl/preprocessor/tuple/elem.h"
 #
 # /* NSL_PP_LOCAL_ITERATE */
 #

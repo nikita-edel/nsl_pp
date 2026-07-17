@@ -14,7 +14,7 @@
 #
 # /* NSL_PP_DETAIL_IS_MINIMUM_NUMBER */
 #
-# include <nsl/preprocessor/logical/not.h>
+# include "nsl/preprocessor/logical/not.h"
 #
 # define NSL_PP_DETAIL_IS_MINIMUM_NUMBER(x) NSL_PP_NOT(x)
 #

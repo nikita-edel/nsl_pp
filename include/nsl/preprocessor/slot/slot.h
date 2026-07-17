@@ -12,8 +12,8 @@
 # ifndef NSL_PREPROCESSOR_SLOT_SLOT_H
 # define NSL_PREPROCESSOR_SLOT_SLOT_H
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/slot/detail/def.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/slot/detail/def.h"
 #
 # /* NSL_PP_ASSIGN_SLOT */
 #

@@ -15,13 +15,13 @@
 # ifndef NSL_PREPROCESSOR_TUPLE_TO_LIST_H
 # define NSL_PREPROCESSOR_TUPLE_TO_LIST_H
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/control/if.h>
-# include <nsl/preprocessor/facilities/overload.h>
-# include <nsl/preprocessor/tuple/size.h>
-# include <nsl/preprocessor/variadic/size.h>
-# include <nsl/preprocessor/variadic/has_opt.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/control/if.h"
+# include "nsl/preprocessor/facilities/overload.h"
+# include "nsl/preprocessor/tuple/size.h"
+# include "nsl/preprocessor/variadic/size.h"
+# include "nsl/preprocessor/variadic/has_opt.h"
 #
 # /* NSL_PP_TUPLE_TO_LIST */
 #
@@ -110,17 +110,17 @@
 #
 # else
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_TUPLE == 64
-# include <nsl/preprocessor/tuple/limits/to_list_64.h>
+# include "nsl/preprocessor/tuple/limits/to_list_64.h"
 # elif NSL_PP_LIMIT_TUPLE == 128
-# include <nsl/preprocessor/tuple/limits/to_list_64.h>
-# include <nsl/preprocessor/tuple/limits/to_list_128.h>
+# include "nsl/preprocessor/tuple/limits/to_list_64.h"
+# include "nsl/preprocessor/tuple/limits/to_list_128.h"
 # elif NSL_PP_LIMIT_TUPLE == 256
-# include <nsl/preprocessor/tuple/limits/to_list_64.h>
-# include <nsl/preprocessor/tuple/limits/to_list_128.h>
-# include <nsl/preprocessor/tuple/limits/to_list_256.h>
+# include "nsl/preprocessor/tuple/limits/to_list_64.h"
+# include "nsl/preprocessor/tuple/limits/to_list_128.h"
+# include "nsl/preprocessor/tuple/limits/to_list_256.h"
 # else
 # error Incorrect value for the NSL_PP_LIMIT_TUPLE limit
 # endif

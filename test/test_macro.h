@@ -14,7 +14,7 @@
 # ifndef NSL_LIBS_PREPROCESSOR_REGRESSION_TEST_MACRO_H
 # define NSL_LIBS_PREPROCESSOR_REGRESSION_TEST_MACRO_H
 #
-# include <nsl/preprocessor/cat.h>
+# include "nsl/preprocessor/cat.h"
 #
 # define BEGIN typedef int NSL_PP_CAT(test_, __LINE__)[((
 # define END )==1) ? 1 : -1];

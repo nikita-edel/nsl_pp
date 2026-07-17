@@ -13,7 +13,7 @@
 # ifndef NSL_PREPROCESSOR_TUPLE_ENUM_H
 # define NSL_PREPROCESSOR_TUPLE_ENUM_H
 #
-# include <nsl/preprocessor/tuple/rem.h>
+# include "nsl/preprocessor/tuple/rem.h"
 #
 # /* NSL_PP_TUPLE_ENUM */
 #

@@ -12,7 +12,7 @@
 # ifndef NSL_PREPROCESSOR_DETAIL_DMC_AUTO_REC_H
 # define NSL_PREPROCESSOR_DETAIL_DMC_AUTO_REC_H
 #
-# include <nsl/preprocessor/control/iif.h>
+# include "nsl/preprocessor/control/iif.h"
 #
 # /* NSL_PP_AUTO_REC */
 #

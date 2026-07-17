@@ -9,9 +9,9 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <nsl/preprocessor/slot.h>
+# include "nsl/preprocessor/slot.h"
 # include "test.h"
-# include <nsl/preprocessor/slot/counter.h>
+# include "nsl/preprocessor/slot/counter.h"
 
 # define X() 4
 

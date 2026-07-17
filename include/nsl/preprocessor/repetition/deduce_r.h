@@ -14,12 +14,12 @@
 # ifndef NSL_PREPROCESSOR_REPETITION_DEDUCE_R_H
 # define NSL_PREPROCESSOR_REPETITION_DEDUCE_R_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
-# include <nsl/preprocessor/detail/auto_rec.h>
-# include <nsl/preprocessor/repetition/for.h>
+# include "nsl/preprocessor/detail/auto_rec.h"
+# include "nsl/preprocessor/repetition/for.h"
 #
 # /* NSL_PP_DEDUCE_R */
 #
@@ -29,10 +29,10 @@
 #
 # /* NSL_PP_DEDUCE_R */
 #
-# include <nsl/preprocessor/arithmetic/dec.h>
-# include <nsl/preprocessor/detail/auto_rec.h>
-# include <nsl/preprocessor/repetition/for.h>
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/arithmetic/dec.h"
+# include "nsl/preprocessor/detail/auto_rec.h"
+# include "nsl/preprocessor/repetition/for.h"
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_FOR == 256
 # define NSL_PP_DEDUCE_R() NSL_PP_DEC(NSL_PP_AUTO_REC(NSL_PP_FOR_P, 256))

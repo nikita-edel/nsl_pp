@@ -14,9 +14,9 @@
 # ifndef NSL_PREPROCESSOR_LOGICAL_AND_H
 # define NSL_PREPROCESSOR_LOGICAL_AND_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/logical/bool.h>
-# include <nsl/preprocessor/logical/bitand.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/logical/bool.h"
+# include "nsl/preprocessor/logical/bitand.h"
 #
 # /* NSL_PP_AND */
 #

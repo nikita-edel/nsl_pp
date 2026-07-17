@@ -13,8 +13,8 @@
 # ifndef NSL_PREPROCESSOR_VARIADIC_TO_SEQ_H
 # define NSL_PREPROCESSOR_VARIADIC_TO_SEQ_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/tuple/to_seq.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/tuple/to_seq.h"
 #
 # /* NSL_PP_VARIADIC_TO_SEQ */
 #

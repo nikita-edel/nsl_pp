@@ -9,12 +9,12 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 #if (NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()) || (NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_MSVC())
 
-# include <nsl/preprocessor/facilities/empty.h>
-# include <nsl/preprocessor/facilities/is_empty.h>
+# include "nsl/preprocessor/facilities/empty.h"
+# include "nsl/preprocessor/facilities/is_empty.h"
 # include "test.h"
 
 #define DATA
@@ -36,7 +36,7 @@
 #define ATUPLE (atuple)
 #define ATUPLE_PLUS (atuple) data
 
-# include <nsl/preprocessor/variadic/has_opt.h>
+# include "nsl/preprocessor/variadic/has_opt.h"
 
 #if defined(__cplusplus) && __cplusplus > 201703L && NSL_PP_VARIADIC_HAS_OPT()
 

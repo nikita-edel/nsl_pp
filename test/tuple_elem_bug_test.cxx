@@ -9,9 +9,9 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/control/if.h>
-# include <nsl/preprocessor/tuple.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/control/if.h"
+# include "nsl/preprocessor/tuple.h"
 # include "test.h"
 
 #define TN_GEN_ONE(p) (1)
