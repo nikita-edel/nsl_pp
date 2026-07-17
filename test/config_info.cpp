@@ -50,7 +50,7 @@ void print_macro(const char* name, const char* value)
    }
 }
 
-#define PRINT_MACRO(X) print_macro(#X, NSL_PP_STRINGIZE(=X))
+#define PRINT_MACRO(X) print_macro(#X, NSL_PP_STR(=X))
 
 void print_macros()
 {

@@ -121,12 +121,12 @@ int print_macro(const std::string name,const std::string expected, const std::st
  return bret;
 }
 
-#define STRINGIZE(...) # __VA_ARGS__
+#define STR(...) # __VA_ARGS__
 
-#define PRINT_MACRO_RESULTS(X,...) print_macro(std::string(# X), std::string(# __VA_ARGS__), std::string(STRINGIZE(X)))
+#define PRINT_MACRO_RESULTS(X,...) print_macro(std::string(# X), std::string(# __VA_ARGS__), std::string(STR(X)))
 #define PRINT_MACRO(...) std::string(# __VA_ARGS__)
 #define PRINT_EXPECTED(...) std::string(# __VA_ARGS__)
-#define PRINT_EXPANSION(...) std::string(STRINGIZE(__VA_ARGS__))
+#define PRINT_EXPANSION(...) std::string(STR(__VA_ARGS__))
 
 #if __cplusplus > 201703L
 
