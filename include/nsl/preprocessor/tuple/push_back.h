@@ -1,0 +1,26 @@
+# /* **************************************************************************
+#  *                                                                          *
+#  *     (C) Copyright Edward Diener 2013.
+#  *     Distributed under the Boost Software License, Version 1.0. (See
+#  *     accompanying file LICENSE_1_0.txt or copy at
+#  *     http://www.boost.org/LICENSE_1_0.txt)
+#  *                                                                          *
+#  ************************************************************************** */
+#
+# /* See http://www.boost.org for most recent version. */
+#
+# ifndef NSL_PREPROCESSOR_TUPLE_PUSH_BACK_H
+# define NSL_PREPROCESSOR_TUPLE_PUSH_BACK_H
+#
+# include <nsl/preprocessor/config/config.h>
+# include <nsl/preprocessor/array/push_back.h>
+# include <nsl/preprocessor/array/to_tuple.h>
+# include <nsl/preprocessor/tuple/to_array.h>
+#
+# /* NSL_PP_TUPLE_PUSH_BACK */
+#
+# define NSL_PP_TUPLE_PUSH_BACK(tuple, elem) \
+    NSL_PP_ARRAY_TO_TUPLE(NSL_PP_ARRAY_PUSH_BACK(NSL_PP_TUPLE_TO_ARRAY(tuple), elem)) \
+/**/
+#
+# endif // NSL_PREPROCESSOR_TUPLE_PUSH_BACK_H

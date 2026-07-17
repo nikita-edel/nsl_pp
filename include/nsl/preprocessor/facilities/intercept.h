@@ -1,0 +1,306 @@
+# /* **************************************************************************
+#  *                                                                          *
+#  *     (C) Copyright Paul Mensonides 2002.
+#  *     Distributed under the Boost Software License, Version 1.0. (See
+#  *     accompanying file LICENSE_1_0.txt or copy at
+#  *     http://www.boost.org/LICENSE_1_0.txt)
+#  *                                                                          *
+#  ************************************************************************** */
+#
+# /* Revised by Edward Diener (2020) */
+#
+# /* See http://www.boost.org for most recent version. */
+#
+# ifndef NSL_PREPROCESSOR_FACILITIES_INTERCEPT_H
+# define NSL_PREPROCESSOR_FACILITIES_INTERCEPT_H
+#
+# include <nsl/preprocessor/config/config.h>
+#
+# if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
+#
+# /* NSL_PP_INTERCEPT */
+#
+# define NSL_PP_INTERCEPT NSL_PP_INTERCEPT_
+#
+# define NSL_PP_INTERCEPT_0
+# define NSL_PP_INTERCEPT_1
+# define NSL_PP_INTERCEPT_2
+# define NSL_PP_INTERCEPT_3
+# define NSL_PP_INTERCEPT_4
+# define NSL_PP_INTERCEPT_5
+# define NSL_PP_INTERCEPT_6
+# define NSL_PP_INTERCEPT_7
+# define NSL_PP_INTERCEPT_8
+# define NSL_PP_INTERCEPT_9
+# define NSL_PP_INTERCEPT_10
+# define NSL_PP_INTERCEPT_11
+# define NSL_PP_INTERCEPT_12
+# define NSL_PP_INTERCEPT_13
+# define NSL_PP_INTERCEPT_14
+# define NSL_PP_INTERCEPT_15
+# define NSL_PP_INTERCEPT_16
+# define NSL_PP_INTERCEPT_17
+# define NSL_PP_INTERCEPT_18
+# define NSL_PP_INTERCEPT_19
+# define NSL_PP_INTERCEPT_20
+# define NSL_PP_INTERCEPT_21
+# define NSL_PP_INTERCEPT_22
+# define NSL_PP_INTERCEPT_23
+# define NSL_PP_INTERCEPT_24
+# define NSL_PP_INTERCEPT_25
+# define NSL_PP_INTERCEPT_26
+# define NSL_PP_INTERCEPT_27
+# define NSL_PP_INTERCEPT_28
+# define NSL_PP_INTERCEPT_29
+# define NSL_PP_INTERCEPT_30
+# define NSL_PP_INTERCEPT_31
+# define NSL_PP_INTERCEPT_32
+# define NSL_PP_INTERCEPT_33
+# define NSL_PP_INTERCEPT_34
+# define NSL_PP_INTERCEPT_35
+# define NSL_PP_INTERCEPT_36
+# define NSL_PP_INTERCEPT_37
+# define NSL_PP_INTERCEPT_38
+# define NSL_PP_INTERCEPT_39
+# define NSL_PP_INTERCEPT_40
+# define NSL_PP_INTERCEPT_41
+# define NSL_PP_INTERCEPT_42
+# define NSL_PP_INTERCEPT_43
+# define NSL_PP_INTERCEPT_44
+# define NSL_PP_INTERCEPT_45
+# define NSL_PP_INTERCEPT_46
+# define NSL_PP_INTERCEPT_47
+# define NSL_PP_INTERCEPT_48
+# define NSL_PP_INTERCEPT_49
+# define NSL_PP_INTERCEPT_50
+# define NSL_PP_INTERCEPT_51
+# define NSL_PP_INTERCEPT_52
+# define NSL_PP_INTERCEPT_53
+# define NSL_PP_INTERCEPT_54
+# define NSL_PP_INTERCEPT_55
+# define NSL_PP_INTERCEPT_56
+# define NSL_PP_INTERCEPT_57
+# define NSL_PP_INTERCEPT_58
+# define NSL_PP_INTERCEPT_59
+# define NSL_PP_INTERCEPT_60
+# define NSL_PP_INTERCEPT_61
+# define NSL_PP_INTERCEPT_62
+# define NSL_PP_INTERCEPT_63
+# define NSL_PP_INTERCEPT_64
+# define NSL_PP_INTERCEPT_65
+# define NSL_PP_INTERCEPT_66
+# define NSL_PP_INTERCEPT_67
+# define NSL_PP_INTERCEPT_68
+# define NSL_PP_INTERCEPT_69
+# define NSL_PP_INTERCEPT_70
+# define NSL_PP_INTERCEPT_71
+# define NSL_PP_INTERCEPT_72
+# define NSL_PP_INTERCEPT_73
+# define NSL_PP_INTERCEPT_74
+# define NSL_PP_INTERCEPT_75
+# define NSL_PP_INTERCEPT_76
+# define NSL_PP_INTERCEPT_77
+# define NSL_PP_INTERCEPT_78
+# define NSL_PP_INTERCEPT_79
+# define NSL_PP_INTERCEPT_80
+# define NSL_PP_INTERCEPT_81
+# define NSL_PP_INTERCEPT_82
+# define NSL_PP_INTERCEPT_83
+# define NSL_PP_INTERCEPT_84
+# define NSL_PP_INTERCEPT_85
+# define NSL_PP_INTERCEPT_86
+# define NSL_PP_INTERCEPT_87
+# define NSL_PP_INTERCEPT_88
+# define NSL_PP_INTERCEPT_89
+# define NSL_PP_INTERCEPT_90
+# define NSL_PP_INTERCEPT_91
+# define NSL_PP_INTERCEPT_92
+# define NSL_PP_INTERCEPT_93
+# define NSL_PP_INTERCEPT_94
+# define NSL_PP_INTERCEPT_95
+# define NSL_PP_INTERCEPT_96
+# define NSL_PP_INTERCEPT_97
+# define NSL_PP_INTERCEPT_98
+# define NSL_PP_INTERCEPT_99
+# define NSL_PP_INTERCEPT_100
+# define NSL_PP_INTERCEPT_101
+# define NSL_PP_INTERCEPT_102
+# define NSL_PP_INTERCEPT_103
+# define NSL_PP_INTERCEPT_104
+# define NSL_PP_INTERCEPT_105
+# define NSL_PP_INTERCEPT_106
+# define NSL_PP_INTERCEPT_107
+# define NSL_PP_INTERCEPT_108
+# define NSL_PP_INTERCEPT_109
+# define NSL_PP_INTERCEPT_110
+# define NSL_PP_INTERCEPT_111
+# define NSL_PP_INTERCEPT_112
+# define NSL_PP_INTERCEPT_113
+# define NSL_PP_INTERCEPT_114
+# define NSL_PP_INTERCEPT_115
+# define NSL_PP_INTERCEPT_116
+# define NSL_PP_INTERCEPT_117
+# define NSL_PP_INTERCEPT_118
+# define NSL_PP_INTERCEPT_119
+# define NSL_PP_INTERCEPT_120
+# define NSL_PP_INTERCEPT_121
+# define NSL_PP_INTERCEPT_122
+# define NSL_PP_INTERCEPT_123
+# define NSL_PP_INTERCEPT_124
+# define NSL_PP_INTERCEPT_125
+# define NSL_PP_INTERCEPT_126
+# define NSL_PP_INTERCEPT_127
+# define NSL_PP_INTERCEPT_128
+# define NSL_PP_INTERCEPT_129
+# define NSL_PP_INTERCEPT_130
+# define NSL_PP_INTERCEPT_131
+# define NSL_PP_INTERCEPT_132
+# define NSL_PP_INTERCEPT_133
+# define NSL_PP_INTERCEPT_134
+# define NSL_PP_INTERCEPT_135
+# define NSL_PP_INTERCEPT_136
+# define NSL_PP_INTERCEPT_137
+# define NSL_PP_INTERCEPT_138
+# define NSL_PP_INTERCEPT_139
+# define NSL_PP_INTERCEPT_140
+# define NSL_PP_INTERCEPT_141
+# define NSL_PP_INTERCEPT_142
+# define NSL_PP_INTERCEPT_143
+# define NSL_PP_INTERCEPT_144
+# define NSL_PP_INTERCEPT_145
+# define NSL_PP_INTERCEPT_146
+# define NSL_PP_INTERCEPT_147
+# define NSL_PP_INTERCEPT_148
+# define NSL_PP_INTERCEPT_149
+# define NSL_PP_INTERCEPT_150
+# define NSL_PP_INTERCEPT_151
+# define NSL_PP_INTERCEPT_152
+# define NSL_PP_INTERCEPT_153
+# define NSL_PP_INTERCEPT_154
+# define NSL_PP_INTERCEPT_155
+# define NSL_PP_INTERCEPT_156
+# define NSL_PP_INTERCEPT_157
+# define NSL_PP_INTERCEPT_158
+# define NSL_PP_INTERCEPT_159
+# define NSL_PP_INTERCEPT_160
+# define NSL_PP_INTERCEPT_161
+# define NSL_PP_INTERCEPT_162
+# define NSL_PP_INTERCEPT_163
+# define NSL_PP_INTERCEPT_164
+# define NSL_PP_INTERCEPT_165
+# define NSL_PP_INTERCEPT_166
+# define NSL_PP_INTERCEPT_167
+# define NSL_PP_INTERCEPT_168
+# define NSL_PP_INTERCEPT_169
+# define NSL_PP_INTERCEPT_170
+# define NSL_PP_INTERCEPT_171
+# define NSL_PP_INTERCEPT_172
+# define NSL_PP_INTERCEPT_173
+# define NSL_PP_INTERCEPT_174
+# define NSL_PP_INTERCEPT_175
+# define NSL_PP_INTERCEPT_176
+# define NSL_PP_INTERCEPT_177
+# define NSL_PP_INTERCEPT_178
+# define NSL_PP_INTERCEPT_179
+# define NSL_PP_INTERCEPT_180
+# define NSL_PP_INTERCEPT_181
+# define NSL_PP_INTERCEPT_182
+# define NSL_PP_INTERCEPT_183
+# define NSL_PP_INTERCEPT_184
+# define NSL_PP_INTERCEPT_185
+# define NSL_PP_INTERCEPT_186
+# define NSL_PP_INTERCEPT_187
+# define NSL_PP_INTERCEPT_188
+# define NSL_PP_INTERCEPT_189
+# define NSL_PP_INTERCEPT_190
+# define NSL_PP_INTERCEPT_191
+# define NSL_PP_INTERCEPT_192
+# define NSL_PP_INTERCEPT_193
+# define NSL_PP_INTERCEPT_194
+# define NSL_PP_INTERCEPT_195
+# define NSL_PP_INTERCEPT_196
+# define NSL_PP_INTERCEPT_197
+# define NSL_PP_INTERCEPT_198
+# define NSL_PP_INTERCEPT_199
+# define NSL_PP_INTERCEPT_200
+# define NSL_PP_INTERCEPT_201
+# define NSL_PP_INTERCEPT_202
+# define NSL_PP_INTERCEPT_203
+# define NSL_PP_INTERCEPT_204
+# define NSL_PP_INTERCEPT_205
+# define NSL_PP_INTERCEPT_206
+# define NSL_PP_INTERCEPT_207
+# define NSL_PP_INTERCEPT_208
+# define NSL_PP_INTERCEPT_209
+# define NSL_PP_INTERCEPT_210
+# define NSL_PP_INTERCEPT_211
+# define NSL_PP_INTERCEPT_212
+# define NSL_PP_INTERCEPT_213
+# define NSL_PP_INTERCEPT_214
+# define NSL_PP_INTERCEPT_215
+# define NSL_PP_INTERCEPT_216
+# define NSL_PP_INTERCEPT_217
+# define NSL_PP_INTERCEPT_218
+# define NSL_PP_INTERCEPT_219
+# define NSL_PP_INTERCEPT_220
+# define NSL_PP_INTERCEPT_221
+# define NSL_PP_INTERCEPT_222
+# define NSL_PP_INTERCEPT_223
+# define NSL_PP_INTERCEPT_224
+# define NSL_PP_INTERCEPT_225
+# define NSL_PP_INTERCEPT_226
+# define NSL_PP_INTERCEPT_227
+# define NSL_PP_INTERCEPT_228
+# define NSL_PP_INTERCEPT_229
+# define NSL_PP_INTERCEPT_230
+# define NSL_PP_INTERCEPT_231
+# define NSL_PP_INTERCEPT_232
+# define NSL_PP_INTERCEPT_233
+# define NSL_PP_INTERCEPT_234
+# define NSL_PP_INTERCEPT_235
+# define NSL_PP_INTERCEPT_236
+# define NSL_PP_INTERCEPT_237
+# define NSL_PP_INTERCEPT_238
+# define NSL_PP_INTERCEPT_239
+# define NSL_PP_INTERCEPT_240
+# define NSL_PP_INTERCEPT_241
+# define NSL_PP_INTERCEPT_242
+# define NSL_PP_INTERCEPT_243
+# define NSL_PP_INTERCEPT_244
+# define NSL_PP_INTERCEPT_245
+# define NSL_PP_INTERCEPT_246
+# define NSL_PP_INTERCEPT_247
+# define NSL_PP_INTERCEPT_248
+# define NSL_PP_INTERCEPT_249
+# define NSL_PP_INTERCEPT_250
+# define NSL_PP_INTERCEPT_251
+# define NSL_PP_INTERCEPT_252
+# define NSL_PP_INTERCEPT_253
+# define NSL_PP_INTERCEPT_254
+# define NSL_PP_INTERCEPT_255
+# define NSL_PP_INTERCEPT_256
+#
+# else
+#
+# /* NSL_PP_INTERCEPT */
+#
+# define NSL_PP_INTERCEPT NSL_PP_INTERCEPT_
+#
+# include <nsl/preprocessor/config/limits.h>
+#
+# if NSL_PP_LIMIT_MAG == 256
+# include <nsl/preprocessor/facilities/limits/intercept_256.h>
+# elif NSL_PP_LIMIT_MAG == 512
+# include <nsl/preprocessor/facilities/limits/intercept_256.h>
+# include <nsl/preprocessor/facilities/limits/intercept_512.h>
+# elif NSL_PP_LIMIT_MAG == 1024
+# include <nsl/preprocessor/facilities/limits/intercept_256.h>
+# include <nsl/preprocessor/facilities/limits/intercept_512.h>
+# include <nsl/preprocessor/facilities/limits/intercept_1024.h>
+# else
+# error Incorrect value for the NSL_PP_LIMIT_MAG limit
+# endif
+#
+# endif
+#
+# endif

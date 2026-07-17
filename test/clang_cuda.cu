@@ -13,7 +13,7 @@
 
 #if defined(__clang__) && defined(__CUDACC__) && defined(__CUDA__)
 
-BEGIN BOOST_PP_VARIADICS == 1 END
+BEGIN NSL_PP_VARIADICS == 1 END
 
 #else
 

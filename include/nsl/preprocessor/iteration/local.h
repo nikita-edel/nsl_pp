@@ -1,0 +1,26 @@
+# /* **************************************************************************
+#  *                                                                          *
+#  *     (C) Copyright Paul Mensonides 2002.
+#  *     Distributed under the Boost Software License, Version 1.0. (See
+#  *     accompanying file LICENSE_1_0.txt or copy at
+#  *     http://www.boost.org/LICENSE_1_0.txt)
+#  *                                                                          *
+#  ************************************************************************** */
+#
+# /* See http://www.boost.org for most recent version. */
+#
+# ifndef NSL_PREPROCESSOR_ITERATION_LOCAL_H
+# define NSL_PREPROCESSOR_ITERATION_LOCAL_H
+#
+# include <nsl/preprocessor/config/config.h>
+# include <nsl/preprocessor/slot/slot.h>
+# include <nsl/preprocessor/tuple/elem.h>
+#
+# /* NSL_PP_LOCAL_ITERATE */
+#
+# define NSL_PP_LOCAL_ITERATE() <nsl/preprocessor/iteration/detail/local.h>
+#
+# define NSL_PP_LOCAL_C(n) (NSL_PP_LOCAL_S) <= n && (NSL_PP_LOCAL_F) >= n
+# define NSL_PP_LOCAL_R(n) (NSL_PP_LOCAL_F) <= n && (NSL_PP_LOCAL_S) >= n
+#
+# endif

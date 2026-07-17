@@ -1,0 +1,19 @@
+# /* **************************************************************************
+#  *                                                                          *
+#  *     (C) Copyright Edward Diener 2019.
+#  *     Distributed under the Boost Software License, Version 1.0. (See
+#  *     accompanying file LICENSE_1_0.txt or copy at
+#  *     http://www.boost.org/LICENSE_1_0.txt)
+#  *                                                                          *
+#  ************************************************************************** */
+#
+# /* See http://www.boost.org for most recent version. */
+#
+# ifndef NSL_PREPROCESSOR_FACILITIES_CHECK_EMPTY_H
+# define NSL_PREPROCESSOR_FACILITIES_CHECK_EMPTY_H
+# include <nsl/preprocessor/variadic/has_opt.h>
+# if NSL_PP_VARIADIC_HAS_OPT()
+# include <nsl/preprocessor/facilities/is_empty_variadic.h>
+# define NSL_PP_CHECK_EMPTY(...) NSL_PP_IS_EMPTY_OPT(__VA_ARGS__)
+# endif /* NSL_PP_VARIADIC_HAS_OPT() */
+# endif /* NSL_PREPROCESSOR_FACILITIES_CHECK_EMPTY_H */
