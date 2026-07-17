@@ -12,7 +12,7 @@
 # ifndef NSL_PREPROCESSOR_LOGICAL_BITOR_H
 # define NSL_PREPROCESSOR_LOGICAL_BITOR_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # /* NSL_PP_BITOR */
 #

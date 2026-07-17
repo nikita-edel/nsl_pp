@@ -15,10 +15,10 @@
 # ifndef NSL_PREPROCESSOR_LIST_DETAIL_DMC_FOLD_LEFT_H
 # define NSL_PREPROCESSOR_LIST_DETAIL_DMC_FOLD_LEFT_H
 #
-# include <nsl/preprocessor/control/expr_iif.h>
-# include <nsl/preprocessor/control/iif.h>
-# include <nsl/preprocessor/list/adt.h>
-# include <nsl/preprocessor/tuple/elem.h>
+# include "nsl/preprocessor/control/expr_iif.h"
+# include "nsl/preprocessor/control/iif.h"
+# include "nsl/preprocessor/list/adt.h"
+# include "nsl/preprocessor/tuple/elem.h"
 #
 # define NSL_PP_LIST_FOLD_LEFT_1(o, s, l) NSL_PP_IIF(NSL_PP_LIST_IS_CONS(l), NSL_PP_LIST_FOLD_LEFT_2, NSL_PP_TUPLE_ELEM_3_1)(o, NSL_PP_IIF(NSL_PP_LIST_IS_CONS(l), o, NSL_PP_TUPLE_ELEM_3_1)(2, s, NSL_PP_LIST_FIRST(l)), NSL_PP_LIST_REST(l))
 # define NSL_PP_LIST_FOLD_LEFT_2(o, s, l) NSL_PP_IIF(NSL_PP_LIST_IS_CONS(l), NSL_PP_LIST_FOLD_LEFT_3, NSL_PP_TUPLE_ELEM_3_1)(o, NSL_PP_IIF(NSL_PP_LIST_IS_CONS(l), o, NSL_PP_TUPLE_ELEM_3_1)(3, s, NSL_PP_LIST_FIRST(l)), NSL_PP_LIST_REST(l))

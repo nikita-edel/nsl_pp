@@ -11,7 +11,7 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
@@ -1303,17 +1303,17 @@
 #
 # else
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_ITERATION == 256
-# include <nsl/preprocessor/iteration/detail/iter/limits/reverse1_256.h>
+# include "nsl/preprocessor/iteration/detail/iter/limits/reverse1_256.h"
 # elif NSL_PP_LIMIT_ITERATION == 512
-# include <nsl/preprocessor/iteration/detail/iter/limits/reverse1_512.h>
-# include <nsl/preprocessor/iteration/detail/iter/limits/reverse1_256.h>
+# include "nsl/preprocessor/iteration/detail/iter/limits/reverse1_512.h"
+# include "nsl/preprocessor/iteration/detail/iter/limits/reverse1_256.h"
 # elif NSL_PP_LIMIT_ITERATION == 1024
-# include <nsl/preprocessor/iteration/detail/iter/limits/reverse1_1024.h>
-# include <nsl/preprocessor/iteration/detail/iter/limits/reverse1_512.h>
-# include <nsl/preprocessor/iteration/detail/iter/limits/reverse1_256.h>
+# include "nsl/preprocessor/iteration/detail/iter/limits/reverse1_1024.h"
+# include "nsl/preprocessor/iteration/detail/iter/limits/reverse1_512.h"
+# include "nsl/preprocessor/iteration/detail/iter/limits/reverse1_256.h"
 # else
 # error Incorrect value for the NSL_PP_LIMIT_ITERATION limit
 # endif

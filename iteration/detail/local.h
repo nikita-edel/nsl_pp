@@ -21,19 +21,19 @@
 #        define NSL_PP_LOCAL_F NSL_PP_TUPLE_ELEM(2, 1, NSL_PP_LOCAL_LIMITS)
 #    else
 #        define NSL_PP_VALUE NSL_PP_TUPLE_ELEM(2, 0, NSL_PP_LOCAL_LIMITS)
-#        include <nsl/preprocessor/iteration/detail/start.h>
+#        include "nsl/preprocessor/iteration/detail/start.h"
 #        define NSL_PP_VALUE NSL_PP_TUPLE_ELEM(2, 1, NSL_PP_LOCAL_LIMITS)
-#        include <nsl/preprocessor/iteration/detail/finish.h>
+#        include "nsl/preprocessor/iteration/detail/finish.h"
 #        define NSL_PP_LOCAL_S NSL_PP_LOCAL_SE()
 #        define NSL_PP_LOCAL_F NSL_PP_LOCAL_FE()
 #    endif
 # endif
 #
 # if (NSL_PP_LOCAL_S) > (NSL_PP_LOCAL_F)
-#    include <nsl/preprocessor/iteration/detail/rlocal.h>
+#    include "nsl/preprocessor/iteration/detail/rlocal.h"
 # else
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
@@ -812,17 +812,17 @@
 #
 # else
 #
-#    include <nsl/preprocessor/config/limits.h>
+#    include "nsl/preprocessor/config/limits.h"
 #    
 #    if NSL_PP_LIMIT_ITERATION == 256
-#    include <nsl/preprocessor/iteration/detail/limits/local_256.h>
+#    include "nsl/preprocessor/iteration/detail/limits/local_256.h"
 #    elif NSL_PP_LIMIT_ITERATION == 512
-#    include <nsl/preprocessor/iteration/detail/limits/local_256.h>
-#    include <nsl/preprocessor/iteration/detail/limits/local_512.h>
+#    include "nsl/preprocessor/iteration/detail/limits/local_256.h"
+#    include "nsl/preprocessor/iteration/detail/limits/local_512.h"
 #    elif NSL_PP_LIMIT_ITERATION == 1024
-#    include <nsl/preprocessor/iteration/detail/limits/local_256.h>
-#    include <nsl/preprocessor/iteration/detail/limits/local_512.h>
-#    include <nsl/preprocessor/iteration/detail/limits/local_1024.h>
+#    include "nsl/preprocessor/iteration/detail/limits/local_256.h"
+#    include "nsl/preprocessor/iteration/detail/limits/local_512.h"
+#    include "nsl/preprocessor/iteration/detail/limits/local_1024.h"
 #    else
 #    error Incorrect value for the NSL_PP_LIMIT_ITERATION limit
 #    endif

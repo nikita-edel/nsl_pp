@@ -12,8 +12,8 @@
 # ifndef NSL_PREPROCESSOR_REPETITION_ENUM_TRAILING_PARAMS_H
 # define NSL_PREPROCESSOR_REPETITION_ENUM_TRAILING_PARAMS_H
 #
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/repetition/repeat.h>
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/repetition/repeat.h"
 #
 # /* NSL_PP_ENUM_TRAILING_PARAMS */
 #

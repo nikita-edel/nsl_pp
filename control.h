@@ -12,11 +12,11 @@
 # ifndef NSL_PREPROCESSOR_CONTROL_H
 # define NSL_PREPROCESSOR_CONTROL_H
 #
-# include <nsl/preprocessor/control/deduce_d.h>
-# include <nsl/preprocessor/control/expr_if.h>
-# include <nsl/preprocessor/control/expr_iif.h>
-# include <nsl/preprocessor/control/if.h>
-# include <nsl/preprocessor/control/iif.h>
-# include <nsl/preprocessor/control/while.h>
+# include "nsl/preprocessor/control/deduce_d.h"
+# include "nsl/preprocessor/control/expr_if.h"
+# include "nsl/preprocessor/control/expr_iif.h"
+# include "nsl/preprocessor/control/if.h"
+# include "nsl/preprocessor/control/iif.h"
+# include "nsl/preprocessor/control/while.h"
 #
 # endif

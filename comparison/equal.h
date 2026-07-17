@@ -14,9 +14,9 @@
 # ifndef NSL_PREPROCESSOR_COMPARISON_EQUAL_H
 # define NSL_PREPROCESSOR_COMPARISON_EQUAL_H
 #
-# include <nsl/preprocessor/comparison/not_equal.h>
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/logical/compl.h>
+# include "nsl/preprocessor/comparison/not_equal.h"
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/logical/compl.h"
 #
 # /* NSL_PP_EQUAL */
 #

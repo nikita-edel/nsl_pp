@@ -9,7 +9,7 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <nsl/preprocessor/slot/detail/shared.h>
+# include "nsl/preprocessor/slot/detail/shared.h"
 #
 # undef NSL_PP_ITERATION_START_5
 #

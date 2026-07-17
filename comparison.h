@@ -14,11 +14,11 @@
 # ifndef NSL_PREPROCESSOR_COMPARISON_H
 # define NSL_PREPROCESSOR_COMPARISON_H
 #
-# include <nsl/preprocessor/comparison/equal.h>
-# include <nsl/preprocessor/comparison/greater.h>
-# include <nsl/preprocessor/comparison/greater_equal.h>
-# include <nsl/preprocessor/comparison/less.h>
-# include <nsl/preprocessor/comparison/less_equal.h>
-# include <nsl/preprocessor/comparison/not_equal.h>
+# include "nsl/preprocessor/comparison/equal.h"
+# include "nsl/preprocessor/comparison/greater.h"
+# include "nsl/preprocessor/comparison/greater_equal.h"
+# include "nsl/preprocessor/comparison/less.h"
+# include "nsl/preprocessor/comparison/less_equal.h"
+# include "nsl/preprocessor/comparison/not_equal.h"
 #
 # endif

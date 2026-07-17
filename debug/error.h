@@ -12,8 +12,8 @@
 # ifndef NSL_PREPROCESSOR_DEBUG_ERROR_H
 # define NSL_PREPROCESSOR_DEBUG_ERROR_H
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/config/config.h"
 #
 # /* NSL_PP_ERROR */
 #

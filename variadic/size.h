@@ -15,10 +15,10 @@
 # ifndef NSL_PREPROCESSOR_VARIADIC_SIZE_H
 # define NSL_PREPROCESSOR_VARIADIC_SIZE_H
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/control/iif.h>
-# include <nsl/preprocessor/facilities/check_empty.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/control/iif.h"
+# include "nsl/preprocessor/facilities/check_empty.h"
 #
 # /* NSL_PP_VARIADIC_SIZE */
 #
@@ -48,14 +48,14 @@
 #       define NSL_PP_VARIADIC_SIZE(...) NSL_PP_VARIADIC_DO_SIZE(__VA_ARGS__)
 #    endif
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_VARIADIC == 64
-# include <nsl/preprocessor/variadic/limits/size_64.h>
+# include "nsl/preprocessor/variadic/limits/size_64.h"
 # elif NSL_PP_LIMIT_VARIADIC == 128
-# include <nsl/preprocessor/variadic/limits/size_128.h>
+# include "nsl/preprocessor/variadic/limits/size_128.h"
 # elif NSL_PP_LIMIT_VARIADIC == 256
-# include <nsl/preprocessor/variadic/limits/size_256.h>
+# include "nsl/preprocessor/variadic/limits/size_256.h"
 # else
 # error Incorrect value for the NSL_PP_LIMIT_TUPLE limit
 # endif

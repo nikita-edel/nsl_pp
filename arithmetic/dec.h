@@ -15,7 +15,7 @@
 # ifndef NSL_PREPROCESSOR_ARITHMETIC_DEC_H
 # define NSL_PREPROCESSOR_ARITHMETIC_DEC_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
@@ -302,17 +302,17 @@
 #
 # define NSL_PP_DEC_I(x) NSL_PP_DEC_ ## x
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_MAG == 256
-# include <nsl/preprocessor/arithmetic/limits/dec_256.h>
+# include "nsl/preprocessor/arithmetic/limits/dec_256.h"
 # elif NSL_PP_LIMIT_MAG == 512
-# include <nsl/preprocessor/arithmetic/limits/dec_256.h>
-# include <nsl/preprocessor/arithmetic/limits/dec_512.h>
+# include "nsl/preprocessor/arithmetic/limits/dec_256.h"
+# include "nsl/preprocessor/arithmetic/limits/dec_512.h"
 # elif NSL_PP_LIMIT_MAG == 1024
-# include <nsl/preprocessor/arithmetic/limits/dec_256.h>
-# include <nsl/preprocessor/arithmetic/limits/dec_512.h>
-# include <nsl/preprocessor/arithmetic/limits/dec_1024.h>
+# include "nsl/preprocessor/arithmetic/limits/dec_256.h"
+# include "nsl/preprocessor/arithmetic/limits/dec_512.h"
+# include "nsl/preprocessor/arithmetic/limits/dec_1024.h"
 # else
 # error Incorrect value for the NSL_PP_LIMIT_MAG limit
 # endif

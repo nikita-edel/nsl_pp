@@ -12,12 +12,12 @@
 # ifndef NSL_PREPROCESSOR_ARRAY_POP_FRONT_H
 # define NSL_PREPROCESSOR_ARRAY_POP_FRONT_H
 #
-# include <nsl/preprocessor/arithmetic/dec.h>
-# include <nsl/preprocessor/arithmetic/inc.h>
-# include <nsl/preprocessor/array/elem.h>
-# include <nsl/preprocessor/array/size.h>
-# include <nsl/preprocessor/repetition/enum.h>
-# include <nsl/preprocessor/repetition/deduce_z.h>
+# include "nsl/preprocessor/arithmetic/dec.h"
+# include "nsl/preprocessor/arithmetic/inc.h"
+# include "nsl/preprocessor/array/elem.h"
+# include "nsl/preprocessor/array/size.h"
+# include "nsl/preprocessor/repetition/enum.h"
+# include "nsl/preprocessor/repetition/deduce_z.h"
 #
 # /* NSL_PP_ARRAY_POP_FRONT */
 #

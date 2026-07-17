@@ -15,8 +15,8 @@
 # ifndef NSL_PREPROCESSOR_VARIADIC_ELEM_H
 # define NSL_PREPROCESSOR_VARIADIC_ELEM_H
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/config/config.h"
 #
 # /* NSL_PP_VARIADIC_ELEM */
 #
@@ -96,17 +96,17 @@
 #
 # else
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 # 
 # if NSL_PP_LIMIT_VARIADIC == 64
-#   include <nsl/preprocessor/variadic/limits/elem_64.h>
+#   include "nsl/preprocessor/variadic/limits/elem_64.h"
 # elif NSL_PP_LIMIT_VARIADIC == 128
-#   include <nsl/preprocessor/variadic/limits/elem_64.h>
-#   include <nsl/preprocessor/variadic/limits/elem_128.h>
+#   include "nsl/preprocessor/variadic/limits/elem_64.h"
+#   include "nsl/preprocessor/variadic/limits/elem_128.h"
 # elif NSL_PP_LIMIT_VARIADIC == 256
-#   include <nsl/preprocessor/variadic/limits/elem_64.h>
-#   include <nsl/preprocessor/variadic/limits/elem_128.h>
-#   include <nsl/preprocessor/variadic/limits/elem_256.h>
+#   include "nsl/preprocessor/variadic/limits/elem_64.h"
+#   include "nsl/preprocessor/variadic/limits/elem_128.h"
+#   include "nsl/preprocessor/variadic/limits/elem_256.h"
 # else
 #   error Incorrect value for the NSL_PP_LIMIT_TUPLE limit
 # endif

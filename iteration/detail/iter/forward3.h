@@ -16,16 +16,16 @@
 #        error NSL_PP_ERROR:  depth #3 filename is not defined
 #    endif
 #    define NSL_PP_VALUE NSL_PP_TUPLE_ELEM(2, 0, NSL_PP_ITERATION_LIMITS)
-#    include <nsl/preprocessor/iteration/detail/bounds/lower3.h>
+#    include "nsl/preprocessor/iteration/detail/bounds/lower3.h"
 #    define NSL_PP_VALUE NSL_PP_TUPLE_ELEM(2, 1, NSL_PP_ITERATION_LIMITS)
-#    include <nsl/preprocessor/iteration/detail/bounds/upper3.h>
+#    include "nsl/preprocessor/iteration/detail/bounds/upper3.h"
 #    define NSL_PP_ITERATION_FLAGS_3() 0
 #    undef NSL_PP_ITERATION_LIMITS
 # elif defined(NSL_PP_ITERATION_PARAMS_3)
 #    define NSL_PP_VALUE NSL_PP_ARRAY_ELEM(0, NSL_PP_ITERATION_PARAMS_3)
-#    include <nsl/preprocessor/iteration/detail/bounds/lower3.h>
+#    include "nsl/preprocessor/iteration/detail/bounds/lower3.h"
 #    define NSL_PP_VALUE NSL_PP_ARRAY_ELEM(1, NSL_PP_ITERATION_PARAMS_3)
-#    include <nsl/preprocessor/iteration/detail/bounds/upper3.h>
+#    include "nsl/preprocessor/iteration/detail/bounds/upper3.h"
 #    define NSL_PP_FILENAME_3 NSL_PP_ARRAY_ELEM(2, NSL_PP_ITERATION_PARAMS_3)
 #    if NSL_PP_ARRAY_SIZE(NSL_PP_ITERATION_PARAMS_3) >= 4
 #        define NSL_PP_ITERATION_FLAGS_3() NSL_PP_ARRAY_ELEM(3, NSL_PP_ITERATION_PARAMS_3)
@@ -40,10 +40,10 @@
 # define NSL_PP_ITERATION_DEPTH() 3
 #
 # if (NSL_PP_ITERATION_START_3) > (NSL_PP_ITERATION_FINISH_3)
-#    include <nsl/preprocessor/iteration/detail/iter/reverse3.h>
+#    include "nsl/preprocessor/iteration/detail/iter/reverse3.h"
 # else
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
@@ -1335,17 +1335,17 @@
 #
 # else
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 #
 #    if NSL_PP_LIMIT_ITERATION == 256
-#    include <nsl/preprocessor/iteration/detail/iter/limits/forward3_256.h>
+#    include "nsl/preprocessor/iteration/detail/iter/limits/forward3_256.h"
 #    elif NSL_PP_LIMIT_ITERATION == 512
-#    include <nsl/preprocessor/iteration/detail/iter/limits/forward3_256.h>
-#    include <nsl/preprocessor/iteration/detail/iter/limits/forward3_512.h>
+#    include "nsl/preprocessor/iteration/detail/iter/limits/forward3_256.h"
+#    include "nsl/preprocessor/iteration/detail/iter/limits/forward3_512.h"
 #    elif NSL_PP_LIMIT_ITERATION == 1024
-#    include <nsl/preprocessor/iteration/detail/iter/limits/forward3_256.h>
-#    include <nsl/preprocessor/iteration/detail/iter/limits/forward3_512.h>
-#    include <nsl/preprocessor/iteration/detail/iter/limits/forward3_1024.h>
+#    include "nsl/preprocessor/iteration/detail/iter/limits/forward3_256.h"
+#    include "nsl/preprocessor/iteration/detail/iter/limits/forward3_512.h"
+#    include "nsl/preprocessor/iteration/detail/iter/limits/forward3_1024.h"
 #    else
 #    error Incorrect value for the NSL_PP_LIMIT_ITERATION limit
 #    endif

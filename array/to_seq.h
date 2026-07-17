@@ -13,11 +13,11 @@
 # ifndef NSL_PREPROCESSOR_ARRAY_TO_SEQ_H
 # define NSL_PREPROCESSOR_ARRAY_TO_SEQ_H
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/array/size.h>
-# include <nsl/preprocessor/control/if.h>
-# include <nsl/preprocessor/tuple/to_seq.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/array/size.h"
+# include "nsl/preprocessor/control/if.h"
+# include "nsl/preprocessor/tuple/to_seq.h"
 #
 # /* NSL_PP_ARRAY_TO_SEQ */
 #

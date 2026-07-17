@@ -15,11 +15,11 @@
 # ifndef NSL_PREPROCESSOR_TUPLE_REM_H
 # define NSL_PREPROCESSOR_TUPLE_REM_H
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/facilities/expand.h>
-# include <nsl/preprocessor/facilities/overload.h>
-# include <nsl/preprocessor/tuple/detail/is_single_return.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/facilities/expand.h"
+# include "nsl/preprocessor/facilities/overload.h"
+# include "nsl/preprocessor/tuple/detail/is_single_return.h"
 #
 # /* NSL_PP_REM */
 #

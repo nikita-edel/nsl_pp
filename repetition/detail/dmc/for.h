@@ -15,10 +15,10 @@
 # ifndef NSL_PREPROCESSOR_REPETITION_DETAIL_DMC_FOR_H
 # define NSL_PREPROCESSOR_REPETITION_DETAIL_DMC_FOR_H
 #
-# include <nsl/preprocessor/control/expr_iif.h>
-# include <nsl/preprocessor/control/iif.h>
-# include <nsl/preprocessor/logical/bool.h>
-# include <nsl/preprocessor/tuple/eat.h>
+# include "nsl/preprocessor/control/expr_iif.h"
+# include "nsl/preprocessor/control/iif.h"
+# include "nsl/preprocessor/logical/bool.h"
+# include "nsl/preprocessor/tuple/eat.h"
 #
 # define NSL_PP_FOR_1(s, p, o, m) NSL_PP_FOR_1_C(NSL_PP_BOOL(p##(2, s)), s, p, o, m)
 # define NSL_PP_FOR_2(s, p, o, m) NSL_PP_FOR_2_C(NSL_PP_BOOL(p##(3, s)), s, p, o, m)

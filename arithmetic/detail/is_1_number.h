@@ -14,7 +14,7 @@
 #
 # /* NSL_PP_DETAIL_IS_1_NUMBER */
 #
-# include <nsl/preprocessor/comparison/equal.h>
+# include "nsl/preprocessor/comparison/equal.h"
 #
 # define NSL_PP_DETAIL_IS_1_NUMBER(x) NSL_PP_EQUAL(x,1)
 #

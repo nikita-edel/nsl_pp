@@ -11,18 +11,18 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
 # if NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_DMC()
-#     include <nsl/preprocessor/detail/dmc/auto_rec.h>
+#     include "nsl/preprocessor/detail/dmc/auto_rec.h"
 # else
 #
 # ifndef NSL_PREPROCESSOR_DETAIL_AUTO_REC_H
 # define NSL_PREPROCESSOR_DETAIL_AUTO_REC_H
 #
-# include <nsl/preprocessor/control/iif.h>
+# include "nsl/preprocessor/control/iif.h"
 #
 # /* NSL_PP_AUTO_REC */
 #
@@ -300,7 +300,7 @@
 # else
 #
 # if NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_DMC()
-#     include <nsl/preprocessor/detail/dmc/auto_rec.h>
+#     include "nsl/preprocessor/detail/dmc/auto_rec.h"
 # else
 #
 # ifndef NSL_PREPROCESSOR_DETAIL_AUTO_REC_H
@@ -308,21 +308,21 @@
 #
 # /* NSL_PP_AUTO_REC */
 #
-# include <nsl/preprocessor/control/iif.h>
+# include "nsl/preprocessor/control/iif.h"
 #
 # define NSL_PP_AUTO_REC(pred, n) NSL_PP_NODE_ENTRY_ ## n(pred)
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_MAG == 256
-# include <nsl/preprocessor/detail/limits/auto_rec_256.h>
+# include "nsl/preprocessor/detail/limits/auto_rec_256.h"
 # elif NSL_PP_LIMIT_MAG == 512
-# include <nsl/preprocessor/detail/limits/auto_rec_256.h>
-# include <nsl/preprocessor/detail/limits/auto_rec_512.h>
+# include "nsl/preprocessor/detail/limits/auto_rec_256.h"
+# include "nsl/preprocessor/detail/limits/auto_rec_512.h"
 # elif NSL_PP_LIMIT_MAG == 1024
-# include <nsl/preprocessor/detail/limits/auto_rec_256.h>
-# include <nsl/preprocessor/detail/limits/auto_rec_512.h>
-# include <nsl/preprocessor/detail/limits/auto_rec_1024.h>
+# include "nsl/preprocessor/detail/limits/auto_rec_256.h"
+# include "nsl/preprocessor/detail/limits/auto_rec_512.h"
+# include "nsl/preprocessor/detail/limits/auto_rec_1024.h"
 # else
 # error Incorrect value for the NSL_PP_LIMIT_MAG limit
 # endif

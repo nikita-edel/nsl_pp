@@ -13,8 +13,8 @@
 # ifndef NSL_PREPROCESSOR_FACILITIES_OVERLOAD_H
 # define NSL_PREPROCESSOR_FACILITIES_OVERLOAD_H
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/variadic/size.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/variadic/size.h"
 #
 # /* NSL_PP_OVERLOAD */
 #

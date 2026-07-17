@@ -12,10 +12,10 @@
 # ifndef NSL_PREPROCESSOR_DEBUG_LINE_H
 # define NSL_PREPROCESSOR_DEBUG_LINE_H
 #
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/config/config.h>
-# include <nsl/preprocessor/iteration/iterate.h>
-# include <nsl/preprocessor/stringize.h>
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/config/config.h"
+# include "nsl/preprocessor/iteration/iterate.h"
+# include "nsl/preprocessor/stringize.h"
 #
 # /* NSL_PP_LINE */
 #

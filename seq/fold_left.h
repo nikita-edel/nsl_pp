@@ -14,13 +14,13 @@
 # ifndef NSL_PREPROCESSOR_SEQ_FOLD_LEFT_H
 # define NSL_PREPROCESSOR_SEQ_FOLD_LEFT_H
 #
-# include <nsl/preprocessor/arithmetic/dec.h>
-# include <nsl/preprocessor/cat.h>
-# include <nsl/preprocessor/control/if.h>
-# include <nsl/preprocessor/debug/error.h>
-# include <nsl/preprocessor/detail/auto_rec.h>
-# include <nsl/preprocessor/seq/seq.h>
-# include <nsl/preprocessor/seq/size.h>
+# include "nsl/preprocessor/arithmetic/dec.h"
+# include "nsl/preprocessor/cat.h"
+# include "nsl/preprocessor/control/if.h"
+# include "nsl/preprocessor/debug/error.h"
+# include "nsl/preprocessor/detail/auto_rec.h"
+# include "nsl/preprocessor/seq/seq.h"
+# include "nsl/preprocessor/seq/size.h"
 #
 # /* NSL_PP_SEQ_FOLD_LEFT */
 #
@@ -28,7 +28,7 @@
 #    define NSL_PP_SEQ_FOLD_LEFT(op, state, seq) ...
 # endif
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # if ~NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()
 #
@@ -1075,7 +1075,7 @@
 #
 # else
 #
-# include <nsl/preprocessor/config/limits.h>
+# include "nsl/preprocessor/config/limits.h"
 #
 # if NSL_PP_LIMIT_SEQ == 256
 # define NSL_PP_SEQ_FOLD_LEFT NSL_PP_CAT(NSL_PP_SEQ_FOLD_LEFT_, NSL_PP_DEC(NSL_PP_AUTO_REC(NSL_PP_SEQ_FOLD_LEFT_P, 256)))
@@ -1107,14 +1107,14 @@
 # define NSL_PP_SEQ_FOLD_LEFT_F(op, st, ss, sz) st
 #
 # if NSL_PP_LIMIT_SEQ == 256
-# include <nsl/preprocessor/seq/limits/fold_left_256.h>
+# include "nsl/preprocessor/seq/limits/fold_left_256.h"
 # elif NSL_PP_LIMIT_SEQ == 512
-# include <nsl/preprocessor/seq/limits/fold_left_256.h>
-# include <nsl/preprocessor/seq/limits/fold_left_512.h>
+# include "nsl/preprocessor/seq/limits/fold_left_256.h"
+# include "nsl/preprocessor/seq/limits/fold_left_512.h"
 # elif NSL_PP_LIMIT_SEQ == 1024
-# include <nsl/preprocessor/seq/limits/fold_left_256.h>
-# include <nsl/preprocessor/seq/limits/fold_left_512.h>
-# include <nsl/preprocessor/seq/limits/fold_left_1024.h>
+# include "nsl/preprocessor/seq/limits/fold_left_256.h"
+# include "nsl/preprocessor/seq/limits/fold_left_512.h"
+# include "nsl/preprocessor/seq/limits/fold_left_1024.h"
 # endif
 #
 # endif

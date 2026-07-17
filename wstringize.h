@@ -12,7 +12,7 @@
 # ifndef NSL_PREPROCESSOR_WSTRINGIZE_H
 # define NSL_PREPROCESSOR_WSTRINGIZE_H
 #
-# include <nsl/preprocessor/config/config.h>
+# include "nsl/preprocessor/config/config.h"
 #
 # /* NSL_PP_WSTRINGIZE */
 #
