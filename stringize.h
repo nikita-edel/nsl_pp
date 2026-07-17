@@ -11,23 +11,23 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef NSL_PREPROCESSOR_STRINGIZE_H
-# define NSL_PREPROCESSOR_STRINGIZE_H
+# ifndef NSL_PREPROCESSOR_STR_H
+# define NSL_PREPROCESSOR_STR_H
 #
 # include "nsl/preprocessor/config/config.h"
 #
-# /* NSL_PP_STRINGIZE */
+# /* NSL_PP_STR */
 #
 # if NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_MSVC()
-#    define NSL_PP_STRINGIZE(text) NSL_PP_STRINGIZE_A((text))
-#    define NSL_PP_STRINGIZE_A(arg) NSL_PP_STRINGIZE_I arg
+#    define NSL_PP_STR(text) NSL_PP_STR_A((text))
+#    define NSL_PP_STR_A(arg) NSL_PP_STR_I arg
 # elif NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_MWCC()
-#    define NSL_PP_STRINGIZE(text) NSL_PP_STRINGIZE_OO((text))
-#    define NSL_PP_STRINGIZE_OO(par) NSL_PP_STRINGIZE_I ## par
+#    define NSL_PP_STR(text) NSL_PP_STR_OO((text))
+#    define NSL_PP_STR_OO(par) NSL_PP_STR_I ## par
 # else
-#    define NSL_PP_STRINGIZE(text) NSL_PP_STRINGIZE_I(text)
+#    define NSL_PP_STR(text) NSL_PP_STR_I(text)
 # endif
 #
-# define NSL_PP_STRINGIZE_I(...) #__VA_ARGS__
+# define NSL_PP_STR_I(...) #__VA_ARGS__
 #
 # endif
