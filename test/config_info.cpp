@@ -12,8 +12,8 @@
 #include <iostream>
 #include <iomanip>
 #include <string.h>
-#include <boost/preprocessor/stringize.hpp>
-#include <boost/preprocessor/variadic/has_opt.hpp>
+#include <nsl/preprocessor/stringize.h>
+#include <nsl/preprocessor/variadic/has_opt.h>
 
 static unsigned int indent = 4;
 static unsigned int width = 40;
@@ -50,7 +50,7 @@ void print_macro(const char* name, const char* value)
    }
 }
 
-#define PRINT_MACRO(X) print_macro(#X, BOOST_PP_STRINGIZE(=X))
+#define PRINT_MACRO(X) print_macro(#X, NSL_PP_STRINGIZE(=X))
 
 void print_macros()
 {
@@ -89,11 +89,11 @@ void print_macros()
   
   print_separator();
   
-  PRINT_MACRO(BOOST_PP_CONFIG_ERRORS);
-  PRINT_MACRO(BOOST_PP_CONFIG_EXTENDED_LINE_INFO);
-  PRINT_MACRO(BOOST_PP_CONFIG_FLAGS());
-  PRINT_MACRO(BOOST_PP_VARIADICS_MSVC);
-  PRINT_MACRO(BOOST_PP_VARIADIC_HAS_OPT());
+  PRINT_MACRO(NSL_PP_CONFIG_ERRORS);
+  PRINT_MACRO(NSL_PP_CONFIG_EXTENDED_LINE_INFO);
+  PRINT_MACRO(NSL_PP_CONFIG_FLAGS());
+  PRINT_MACRO(NSL_PP_VARIADICS_MSVC);
+  PRINT_MACRO(NSL_PP_VARIADIC_HAS_OPT());
 }
 
 int main()

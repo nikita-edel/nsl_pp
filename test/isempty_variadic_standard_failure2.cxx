@@ -9,22 +9,22 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# include <boost/preprocessor/facilities/is_empty.hpp>
+# include <nsl/preprocessor/facilities/is_empty.h>
 # include "test.h"
 
-#if (BOOST_PP_CONFIG_FLAGS() & BOOST_PP_CONFIG_STRICT()) && !BOOST_PP_VARIADICS_MSVC
+#if (NSL_PP_CONFIG_FLAGS() & NSL_PP_CONFIG_STRICT()) && !NSL_PP_VARIADICS_MSVC
 
 #define FUNC_GEN9(x,y,z) anything
   
 #if defined(__cplusplus) && __cplusplus > 201703L
   
-# include <boost/preprocessor/variadic/has_opt.hpp>
+# include <nsl/preprocessor/variadic/has_opt.h>
 
-BEGIN BOOST_PP_IS_EMPTY(FUNC_GEN9) == BOOST_PP_VARIADIC_HAS_OPT() END
+BEGIN NSL_PP_IS_EMPTY(FUNC_GEN9) == NSL_PP_VARIADIC_HAS_OPT() END
 
 #else
 
-BEGIN BOOST_PP_IS_EMPTY(FUNC_GEN9) == 0 END
+BEGIN NSL_PP_IS_EMPTY(FUNC_GEN9) == 0 END
 
 #endif
 

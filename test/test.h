@@ -11,8 +11,8 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# ifndef BOOST_LIBS_PREPROCESSOR_REGRESSION_TEST_H
-# define BOOST_LIBS_PREPROCESSOR_REGRESSION_TEST_H
+# ifndef NSL_LIBS_PREPROCESSOR_REGRESSION_TEST_H
+# define NSL_LIBS_PREPROCESSOR_REGRESSION_TEST_H
 #
 # include "test_macro.h"
 #include "test_main.h"

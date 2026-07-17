@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
-#include <boost/preprocessor/config/config.hpp>
+#include <nsl/preprocessor/config/config.hpp>
 
 static unsigned int indent = 4;
 static unsigned int width = 90;

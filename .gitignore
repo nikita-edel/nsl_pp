@@ -1,2 +1,4 @@
 build/
 .boost-cmake/
+temp*
+.cache/

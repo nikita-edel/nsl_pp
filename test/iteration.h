@@ -9,171 +9,171 @@
 #
 # /* See http://www.boost.org for most recent version. */
 #
-# if !BOOST_PP_IS_ITERATING
+# if !NSL_PP_IS_ITERATING
 #
-# include <boost/preprocessor/cat.hpp>
-# include <boost/preprocessor/comparison/equal.hpp>
-# include <boost/preprocessor/control/expr_iif.hpp>
-# include <boost/preprocessor/iteration.hpp>
-# include <boost/preprocessor/logical/bitor.hpp>
+# include <nsl/preprocessor/cat.h>
+# include <nsl/preprocessor/comparison/equal.h>
+# include <nsl/preprocessor/control/expr_iif.h>
+# include <nsl/preprocessor/iteration.h>
+# include <nsl/preprocessor/logical/bitor.h>
 # include "test.h"
 #
 # define NO_FLAGS
 #
-# define BOOST_PP_ITERATION_PARAMS_1 (3, (1, 10, "iteration.h"))
-# include BOOST_PP_ITERATE()
+# define NSL_PP_ITERATION_PARAMS_1 (3, (1, 10, "iteration.h"))
+# include NSL_PP_ITERATE()
 #
 # undef NO_FLAGS
 #
-# define BOOST_PP_ITERATION_PARAMS_1 (4, (1, 5, "iteration.h", 0x0001))
-# include BOOST_PP_ITERATE()
+# define NSL_PP_ITERATION_PARAMS_1 (4, (1, 5, "iteration.h", 0x0001))
+# include NSL_PP_ITERATE()
 #
-# define BOOST_PP_ITERATION_PARAMS_1 (4, (1, 5, "iteration.h", 0x0002))
-# include BOOST_PP_ITERATE()
+# define NSL_PP_ITERATION_PARAMS_1 (4, (1, 5, "iteration.h", 0x0002))
+# include NSL_PP_ITERATE()
 #
-# if BOOST_PP_LIMIT_ITERATION == 512
+# if NSL_PP_LIMIT_ITERATION == 512
 #
 # define ITER100S(n)                       \
-         BOOST_PP_BITOR                    \
+         NSL_PP_BITOR                    \
             (                              \
-            BOOST_PP_BITOR                 \
+            NSL_PP_BITOR                 \
                 (                          \
-                BOOST_PP_EQUAL(n,100),     \
-                BOOST_PP_EQUAL(n,200)      \
+                NSL_PP_EQUAL(n,100),     \
+                NSL_PP_EQUAL(n,200)      \
                 ),                         \
-            BOOST_PP_BITOR                 \
+            NSL_PP_BITOR                 \
                 (                          \
-                BOOST_PP_BITOR             \
+                NSL_PP_BITOR             \
                     (                      \
-                    BOOST_PP_EQUAL(n,300), \
-                    BOOST_PP_EQUAL(n,400)  \
+                    NSL_PP_EQUAL(n,300), \
+                    NSL_PP_EQUAL(n,400)  \
                     ),                     \
-                BOOST_PP_EQUAL(n,500)      \
+                NSL_PP_EQUAL(n,500)      \
                 )                          \
             )                              \
 /* */
 #
-# define BOOST_PP_ITERATION_PARAMS_1 (4, (0, 512, "iteration.h", 0x0003))
-# include BOOST_PP_ITERATE()
+# define NSL_PP_ITERATION_PARAMS_1 (4, (0, 512, "iteration.h", 0x0003))
+# include NSL_PP_ITERATE()
 #
 # undef ITER100S
 #
 # define ITER50S(n)                        \
-         BOOST_PP_BITOR                    \
+         NSL_PP_BITOR                    \
             (                              \
-            BOOST_PP_BITOR                 \
+            NSL_PP_BITOR                 \
                 (                          \
-                BOOST_PP_EQUAL(n,450),     \
-                BOOST_PP_EQUAL(n,350)      \
+                NSL_PP_EQUAL(n,450),     \
+                NSL_PP_EQUAL(n,350)      \
                 ),                         \
-            BOOST_PP_BITOR                 \
+            NSL_PP_BITOR                 \
                 (                          \
-                BOOST_PP_BITOR             \
+                NSL_PP_BITOR             \
                     (                      \
-                    BOOST_PP_EQUAL(n,250), \
-                    BOOST_PP_EQUAL(n,150)  \
+                    NSL_PP_EQUAL(n,250), \
+                    NSL_PP_EQUAL(n,150)  \
                     ),                     \
-                BOOST_PP_EQUAL(n,50)       \
+                NSL_PP_EQUAL(n,50)       \
                 )                          \
             )                              \
 /* */
 #
-# define BOOST_PP_ITERATION_PARAMS_1 (4, (512, 0, "iteration.h", 0x0004))
-# include BOOST_PP_ITERATE()
+# define NSL_PP_ITERATION_PARAMS_1 (4, (512, 0, "iteration.h", 0x0004))
+# include NSL_PP_ITERATE()
 #
 # undef ITER50S
 #
 # endif
 #
-# if BOOST_PP_LIMIT_ITERATION == 1024
+# if NSL_PP_LIMIT_ITERATION == 1024
 #
 # define ITER100SA(n)                          \
-         BOOST_PP_BITOR                        \
+         NSL_PP_BITOR                        \
              (                                 \
-             BOOST_PP_BITOR                    \
+             NSL_PP_BITOR                    \
                 (                              \
-                BOOST_PP_BITOR                 \
+                NSL_PP_BITOR                 \
                     (                          \
-                    BOOST_PP_EQUAL(n,100),     \
-                    BOOST_PP_EQUAL(n,200)      \
+                    NSL_PP_EQUAL(n,100),     \
+                    NSL_PP_EQUAL(n,200)      \
                     ),                         \
-                BOOST_PP_BITOR                 \
+                NSL_PP_BITOR                 \
                     (                          \
-                    BOOST_PP_BITOR             \
+                    NSL_PP_BITOR             \
                         (                      \
-                        BOOST_PP_EQUAL(n,300), \
-                        BOOST_PP_EQUAL(n,400)  \
+                        NSL_PP_EQUAL(n,300), \
+                        NSL_PP_EQUAL(n,400)  \
                         ),                     \
-                    BOOST_PP_EQUAL(n,500)      \
+                    NSL_PP_EQUAL(n,500)      \
                     )                          \
                 ),                             \
-             BOOST_PP_BITOR                    \
+             NSL_PP_BITOR                    \
                 (                              \
-                BOOST_PP_BITOR                 \
+                NSL_PP_BITOR                 \
                     (                          \
-                    BOOST_PP_EQUAL(n,600),     \
-                    BOOST_PP_EQUAL(n,700)      \
+                    NSL_PP_EQUAL(n,600),     \
+                    NSL_PP_EQUAL(n,700)      \
                     ),                         \
-                BOOST_PP_BITOR                 \
+                NSL_PP_BITOR                 \
                     (                          \
-                    BOOST_PP_BITOR             \
+                    NSL_PP_BITOR             \
                         (                      \
-                        BOOST_PP_EQUAL(n,800), \
-                        BOOST_PP_EQUAL(n,900)  \
+                        NSL_PP_EQUAL(n,800), \
+                        NSL_PP_EQUAL(n,900)  \
                         ),                     \
-                    BOOST_PP_EQUAL(n,1000)     \
+                    NSL_PP_EQUAL(n,1000)     \
                     )                          \
                 )                              \
              )                                 \
 /* */
 #
-# define BOOST_PP_ITERATION_PARAMS_1 (4, (0, 1024, "iteration.h", 0x0005))
-# include BOOST_PP_ITERATE()
+# define NSL_PP_ITERATION_PARAMS_1 (4, (0, 1024, "iteration.h", 0x0005))
+# include NSL_PP_ITERATE()
 #
 # undef ITER100SA
 #
 # define ITER50SA(n)                           \
-         BOOST_PP_BITOR                        \
+         NSL_PP_BITOR                        \
              (                                 \
-             BOOST_PP_BITOR                    \
+             NSL_PP_BITOR                    \
                 (                              \
-                BOOST_PP_BITOR                 \
+                NSL_PP_BITOR                 \
                     (                          \
-                    BOOST_PP_EQUAL(n,950),     \
-                    BOOST_PP_EQUAL(n,850)      \
+                    NSL_PP_EQUAL(n,950),     \
+                    NSL_PP_EQUAL(n,850)      \
                     ),                         \
-                BOOST_PP_BITOR                 \
+                NSL_PP_BITOR                 \
                     (                          \
-                    BOOST_PP_BITOR             \
+                    NSL_PP_BITOR             \
                         (                      \
-                        BOOST_PP_EQUAL(n,750), \
-                        BOOST_PP_EQUAL(n,650)  \
+                        NSL_PP_EQUAL(n,750), \
+                        NSL_PP_EQUAL(n,650)  \
                         ),                     \
-                    BOOST_PP_EQUAL(n,550)       \
+                    NSL_PP_EQUAL(n,550)       \
                     )                          \
                 ),                             \
-             BOOST_PP_BITOR                    \
+             NSL_PP_BITOR                    \
                 (                              \
-                BOOST_PP_BITOR                 \
+                NSL_PP_BITOR                 \
                     (                          \
-                    BOOST_PP_EQUAL(n,450),     \
-                    BOOST_PP_EQUAL(n,350)      \
+                    NSL_PP_EQUAL(n,450),     \
+                    NSL_PP_EQUAL(n,350)      \
                     ),                         \
-                BOOST_PP_BITOR                 \
+                NSL_PP_BITOR                 \
                     (                          \
-                    BOOST_PP_BITOR             \
+                    NSL_PP_BITOR             \
                         (                      \
-                        BOOST_PP_EQUAL(n,250), \
-                        BOOST_PP_EQUAL(n,150)  \
+                        NSL_PP_EQUAL(n,250), \
+                        NSL_PP_EQUAL(n,150)  \
                         ),                     \
-                    BOOST_PP_EQUAL(n,50)       \
+                    NSL_PP_EQUAL(n,50)       \
                     )                          \
                 )                              \
              )                                 \
 /* */
 #
-# define BOOST_PP_ITERATION_PARAMS_1 (4, (1024, 0, "iteration.h", 0x0006))
-# include BOOST_PP_ITERATE()
+# define NSL_PP_ITERATION_PARAMS_1 (4, (1024, 0, "iteration.h", 0x0006))
+# include NSL_PP_ITERATE()
 #
 # undef ITER50SA
 #
@@ -182,88 +182,88 @@
 # else
 # if defined NO_FLAGS
 
-struct BOOST_PP_CAT(X, BOOST_PP_ITERATION()) {
+struct NSL_PP_CAT(X, NSL_PP_ITERATION()) {
     BEGIN
-        BOOST_PP_ITERATION() >= BOOST_PP_ITERATION_START() &&
-        BOOST_PP_ITERATION() <= BOOST_PP_ITERATION_FINISH()
+        NSL_PP_ITERATION() >= NSL_PP_ITERATION_START() &&
+        NSL_PP_ITERATION() <= NSL_PP_ITERATION_FINISH()
     END
 };
 
-# elif BOOST_PP_ITERATION_DEPTH() == 1 \
-    && BOOST_PP_ITERATION_FLAGS() == 0x0001
+# elif NSL_PP_ITERATION_DEPTH() == 1 \
+    && NSL_PP_ITERATION_FLAGS() == 0x0001
 
-struct BOOST_PP_CAT(Y, BOOST_PP_ITERATION()) { };
+struct NSL_PP_CAT(Y, NSL_PP_ITERATION()) { };
 
-# elif BOOST_PP_ITERATION_DEPTH() == 1 \
-    && BOOST_PP_ITERATION_FLAGS() == 0x0002
+# elif NSL_PP_ITERATION_DEPTH() == 1 \
+    && NSL_PP_ITERATION_FLAGS() == 0x0002
 
-# define BOOST_PP_ITERATION_PARAMS_2 (3, (1, BOOST_PP_ITERATION(), "iteration.h"))
-# include BOOST_PP_ITERATE()
+# define NSL_PP_ITERATION_PARAMS_2 (3, (1, NSL_PP_ITERATION(), "iteration.h"))
+# include NSL_PP_ITERATE()
 
-# elif BOOST_PP_ITERATION_DEPTH() == 1 \
-    && BOOST_PP_ITERATION_FLAGS() == 0x0003
+# elif NSL_PP_ITERATION_DEPTH() == 1 \
+    && NSL_PP_ITERATION_FLAGS() == 0x0003
     
 #define TEST_ITER_F(n)                         \
-    BOOST_PP_EXPR_IIF                          \
+    NSL_PP_EXPR_IIF                          \
         (                                      \
         ITER100S(n),                           \
-        struct BOOST_PP_CAT(iter_512_f,n) { }; \
+        struct NSL_PP_CAT(iter_512_f,n) { }; \
         )                                      \
 /* */
 
-TEST_ITER_F(BOOST_PP_ITERATION())
+TEST_ITER_F(NSL_PP_ITERATION())
 
 # undef TEST_ITER_F
 
-# elif BOOST_PP_ITERATION_DEPTH() == 1 \
-    && BOOST_PP_ITERATION_FLAGS() == 0x0004
+# elif NSL_PP_ITERATION_DEPTH() == 1 \
+    && NSL_PP_ITERATION_FLAGS() == 0x0004
 
 #define TEST_ITER_B(n)                         \
-    BOOST_PP_EXPR_IIF                          \
+    NSL_PP_EXPR_IIF                          \
         (                                      \
         ITER50S(n),                            \
-        struct BOOST_PP_CAT(iter_512_b,n) { }; \
+        struct NSL_PP_CAT(iter_512_b,n) { }; \
         )                                      \
 /* */
 
-TEST_ITER_B(BOOST_PP_ITERATION())
+TEST_ITER_B(NSL_PP_ITERATION())
 
 # undef TEST_ITER_B
 
-# elif BOOST_PP_ITERATION_DEPTH() == 1 \
-    && BOOST_PP_ITERATION_FLAGS() == 0x0005
+# elif NSL_PP_ITERATION_DEPTH() == 1 \
+    && NSL_PP_ITERATION_FLAGS() == 0x0005
     
 #define TEST_ITER_FA(n)                        \
-    BOOST_PP_EXPR_IIF                          \
+    NSL_PP_EXPR_IIF                          \
         (                                      \
         ITER100SA(n),                          \
-        struct BOOST_PP_CAT(iter_1024_f,n) {}; \
+        struct NSL_PP_CAT(iter_1024_f,n) {}; \
         )                                      \
 /* */
 
-TEST_ITER_FA(BOOST_PP_ITERATION())
+TEST_ITER_FA(NSL_PP_ITERATION())
 
 # undef TEST_ITER_FA
 
-# elif BOOST_PP_ITERATION_DEPTH() == 1 \
-    && BOOST_PP_ITERATION_FLAGS() == 0x0006
+# elif NSL_PP_ITERATION_DEPTH() == 1 \
+    && NSL_PP_ITERATION_FLAGS() == 0x0006
 
 #define TEST_ITER_BA(n)                        \
-    BOOST_PP_EXPR_IIF                          \
+    NSL_PP_EXPR_IIF                          \
         (                                      \
         ITER50SA(n),                           \
-        struct BOOST_PP_CAT(iter_1024_b,n) {}; \
+        struct NSL_PP_CAT(iter_1024_b,n) {}; \
         )                                      \
 /* */
 
-TEST_ITER_BA(BOOST_PP_ITERATION())
+TEST_ITER_BA(NSL_PP_ITERATION())
 
 # undef TEST_ITER_BA
 
-# elif BOOST_PP_ITERATION_DEPTH() == 2 \
-    && BOOST_PP_FRAME_FLAGS(1) == 0x0002
+# elif NSL_PP_ITERATION_DEPTH() == 2 \
+    && NSL_PP_FRAME_FLAGS(1) == 0x0002
 
-struct BOOST_PP_CAT(Z, BOOST_PP_CAT(BOOST_PP_ITERATION(), BOOST_PP_RELATIVE_ITERATION(1))) { };
+struct NSL_PP_CAT(Z, NSL_PP_CAT(NSL_PP_ITERATION(), NSL_PP_RELATIVE_ITERATION(1))) { };
 
 # else
 #
